@@ -1,0 +1,366 @@
+{
+  "title": "Personajes y Habilidades Ninja",
+  "description": "Preguntas sobre ninjutsu, Kekkei Genkai, Mangekyō Sharingan, Jinchūrikis y batallas.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Qué Kekkei Genkai óptico posee el clan Uchiha?",
+      "options": [
+        "Byakugan",
+        "Sharingan",
+        "Rinnegan",
+        "Tenseigan"
+      ],
+      "correct": 1,
+      "hint": "Ojo rojo capaz de copiar jutsus y ver el flujo de chakra."
+    },
+    {
+      "id": 2,
+      "question": "¿Qué Kekkei Genkai óptico posee el clan Hyūga?",
+      "options": [
+        "Sharingan",
+        "Byakugan",
+        "Rinnegan",
+        "Ketsuryūgan"
+      ],
+      "correct": 1,
+      "hint": "Permite una visión de casi 360 grados y ver los puntos de chakra (tenketsu)."
+    },
+    {
+      "id": 3,
+      "question": "¿Cómo se llama la versión avanzada del Sharingan que se despierta tras sufrir un trauma de pérdida profundo?",
+      "options": [
+        "Mangekyō Sharingan",
+        "Rinne Sharingan",
+        "Jōgan",
+        "Ketsuryūgan"
+      ],
+      "correct": 0,
+      "hint": "Otorga habilidades únicas como Amaterasu, Tsukuyomi o Kamui."
+    },
+    {
+      "id": 4,
+      "question": "¿Cuál es la técnica defensiva/ofensiva máxima de chakra humanoide que pueden invocar los portadores del Mangekyō Sharingan?",
+      "options": [
+        "Susanoo",
+        "Izanami",
+        "Shinra Tensei",
+        "Kotoamatsukami"
+      ],
+      "correct": 0,
+      "hint": "Un gigante espiritual de chakra que envuelve al usuario como una armadura."
+    },
+    {
+      "id": 5,
+      "question": "¿Qué elemento de chakra (Naturaleza) es la afinidad principal de Naruto Uzumaki?",
+      "options": [
+        "Katon (Fuego)",
+        "Raiton (Rayo)",
+        "Fūton (Viento)",
+        "Doton (Tierra)"
+      ],
+      "correct": 2,
+      "hint": "La naturaleza que corta y potencia las técnicas de corte, como el Rasenshuriken."
+    },
+    {
+      "id": 6,
+      "question": "¿Qué técnica de llamas negras inextinguibles es ejecutada por el Mangekyō Sharingan de Itachi y Sasuke?",
+      "options": [
+        "Katon: Gōka Mekkyaku",
+        "Amaterasu",
+        "Kagutsuchi",
+        "Kirin"
+      ],
+      "correct": 1,
+      "hint": "Llamas del infierno que arden durante siete días y siete noches."
+    },
+    {
+      "id": 7,
+      "question": "¿Cómo se llama la técnica original creada por Kakashi Hatake que transmite electricidad a la mano?",
+      "options": [
+        "Rasengan",
+        "Chidori (o Raikiri)",
+        "Kirin",
+        "Lanza de Chidori"
+      ],
+      "correct": 1,
+      "hint": "Su nombre alude al sonido de mil pájaros cantando."
+    },
+    {
+      "id": 8,
+      "question": "¿Qué Jinchūriki es el jientérprete de rap y contenedor del Hachibi (8 Colas)?",
+      "options": [
+        "Yugito Nii",
+        "Killer Bee",
+        "Yagura",
+        "Utakata"
+      ],
+      "correct": 1,
+      "hint": "Hermano adoptivo del Cuarto Raikage que lucha con 8 espadas."
+    },
+    {
+      "id": 9,
+      "question": "¿Qué marioneta o técnica distintiva usa Kankurō de la Aldea de la Arena?",
+      "options": [
+        "Karasu, Kuroari y Sanshōuo",
+        "Hiruko",
+        "El Tercer Kazekage",
+        "100 Marionetas de Sasori"
+      ],
+      "correct": 0,
+      "hint": "Marionetas mecánicas con veneno y trampas."
+    },
+    {
+      "id": 10,
+      "question": "¿Qué marionetista de Akatsuki convirtió su propio cuerpo en una marioneta humana?",
+      "options": [
+        "Deidara",
+        "Sasori",
+        "Hidan",
+        "Kakuzu"
+      ],
+      "correct": 1,
+      "hint": "El nieto de la anciana Chiyo de la Arena."
+    },
+    {
+      "id": 11,
+      "question": "¿Cuál es la habilidad secreta del clan Nara usada por Shikamaru?",
+      "options": [
+        "Imitación de Sombras (Kage Mane no Jutsu)",
+        "Agrandamiento de cuerpo",
+        "Conversión de mente/cuerpo",
+        "Técnica de la mariposa"
+      ],
+      "correct": 0,
+      "hint": "Permite controlar los movimientos del oponente al conectar la sombra."
+    },
+    {
+      "id": 12,
+      "question": "¿Qué clan usa insectos (Kikaichū) que viven dentro de sus cuerpos en simbiosis?",
+      "options": [
+        "Clan Inuzuka",
+        "Clan Aburame",
+        "Clan Akimichi",
+        "Clan Yamanaka"
+      ],
+      "correct": 1,
+      "hint": "El clan al que pertenece Shino."
+    },
+    {
+      "id": 13,
+      "question": "¿Cómo se llama el perro ninja compañero de Kiba Inuzuka?",
+      "options": [
+        "Pakkun",
+        "Akamaru",
+        "Kuromaru",
+        "Nin-ken"
+      ],
+      "correct": 1,
+      "hint": "Su pelaje se vuelve rojo cuando come una píldora de soldado."
+    },
+    {
+      "id": 14,
+      "question": "¿Qué ninja no tiene la capacidad de usar Ninjutsu ni Genjutsu y basa todo su poder en el Taijutsu?",
+      "options": [
+        "Neji Hyūga",
+        "Rock Lee",
+        "Chōji Akimichi",
+        "Shino Aburame"
+      ],
+      "correct": 1,
+      "hint": "Alumno de Might Guy que viste malla verde y cejas pobladas."
+    },
+    {
+      "id": 15,
+      "question": "¿Qué Genjutsu supremo del clan Uchiha permite reescribir el destino a costa de perder la vista de un Sharingan?",
+      "options": [
+        "Izanagi",
+        "Izanami",
+        "Tsukuyomi",
+        "Kotoamatsukami"
+      ],
+      "correct": 0,
+      "hint": "Danza entre la realidad y la ilusión para evitar la muerte."
+    },
+    {
+      "id": 16,
+      "question": "¿Qué Genjutsu fue creado para contrarrestar el Izanagi atrapando al oponente en un bucle temporal infinito?",
+      "options": [
+        "Tsukuyomi",
+        "Izanami",
+        "Kotoamatsukami",
+        "Mugen Tsukuyomi"
+      ],
+      "correct": 1,
+      "hint": "Exige repetir una secuencia de sensaciones físicas para obligar a aceptar la realidad."
+    },
+    {
+      "id": 17,
+      "question": "¿Qué técnica de ilusión legendaria del Mangekyō de Shisui Uchiha permite controlar la mente de alguien sin que se dé cuenta?",
+      "options": [
+        "Tsukuyomi",
+        "Kotoamatsukami",
+        "Izanami",
+        "Kamui"
+      ],
+      "correct": 1,
+      "hint": "El Genjutsu de mayor nivel considerado indetectable."
+    },
+    {
+      "id": 18,
+      "question": "¿Qué ninja inmortal de Akatsuki pertenecía a la religión del dios Jashin?",
+      "options": [
+        "Kakuzu",
+        "Hidan",
+        "Deidara",
+        "Zetsu"
+      ],
+      "correct": 1,
+      "hint": "Usaba una guadaña de tres hojas y realizaba un ritual de sangre con un estigma negro en el suelo."
+    },
+    {
+      "id": 19,
+      "question": "¿Cuántos corazones tenía Kakuzu en su cuerpo gracias a sus máscaras de elementos?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "9"
+      ],
+      "correct": 2,
+      "hint": "Robaba los corazones de otros ninjas para alargar su vida durante siglos."
+    },
+    {
+      "id": 20,
+      "question": "¿De qué elemento está hecha el arte explosivo de Deidara?",
+      "options": [
+        "Arcilla mezclada con chakra de la boca de sus manos (Bakuton)",
+        "Fuego directo",
+        "Rayo condensado",
+        "Pólvora de hierro"
+      ],
+      "correct": 0,
+      "hint": "Gritaba '¡El arte es una explosión!' (Katsu!)."
+    },
+    {
+      "id": 21,
+      "question": "¿Qué espada legendaria de los Siete Espadachines de la Niebla pertenecía a Zabuza Momochi?",
+      "options": [
+        "Kubikiribōchō (Desmembradora)",
+        "Samehada",
+        "Hiramekarei",
+        "Kiba"
+      ],
+      "correct": 0,
+      "hint": "Una espada gigante con forma de cuchillo de carnicero que se regenera con el hierro de la sangre."
+    },
+    {
+      "id": 22,
+      "question": "¿Qué habilidad especial tiene Karin Uzumaki para sanar a sus aliados?",
+      "options": [
+        "Morder su piel para absorber su chakra curativo",
+        "Luz divina del sello",
+        "Jutsu de palma mística",
+        "Transfusión de sangre"
+      ],
+      "correct": 0,
+      "hint": "Deja marcas de mordiscos en sus brazos y cuerpo."
+    },
+    {
+      "id": 23,
+      "question": "¿Qué invocación personal utiliza Sasuke Uchiha además de las serpientes?",
+      "options": [
+        "Sapo (Gamakichi)",
+        "Halcón (Taka)",
+        "Babosa (Katsuyu)",
+        "Perro (Pakkun)"
+      ],
+      "correct": 1,
+      "hint": "Un ave de presa majestuosa que inspiró el nombre de su equipo."
+    },
+    {
+      "id": 24,
+      "question": "¿Cómo se llama la babosa gigante invocada por Tsunade y Sakura?",
+      "options": [
+        "Gamabunta",
+        "Manda",
+        "Katsuyu",
+        "Enma"
+      ],
+      "correct": 2,
+      "hint": "Puede dividirse en miles de pequeñas babosas para sanar a toda una aldea."
+    },
+    {
+      "id": 25,
+      "question": "¿Qué transformación física obtuvo Sasuke tras ser mordido por Orochimaru durante los Exámenes Chūnin?",
+      "options": [
+        "Modo Sabio",
+        "Sello Maldito (Juin)",
+        "Bijuu Mode",
+        "Armadura de Rayo"
+      ],
+      "correct": 1,
+      "hint": "Le otorgaba marcas de fuego y posteriormente alas de mano en el Nivel 2."
+    },
+    {
+      "id": 26,
+      "question": "¿Qué estilo de combate utiliza Neji Hyūga para bloquear los puntos de chakra con sus palmas?",
+      "options": [
+        "Gōken (Puño Duro)",
+        "Jūken (Puño Suave)",
+        "Kawazoken (Puño de Sapo)",
+        "Taijutsu de la Borrachera"
+      ],
+      "correct": 1,
+      "hint": "Un estilo elegante que ataca los órganos internos a través del sistema circulatorio de chakra."
+    },
+    {
+      "id": 27,
+      "question": "¿Qué técnica invoca una barrera circular absoluta de 360 grados ejecutada por Neji Hyūga?",
+      "options": [
+        "Eight Trigrams Sixty-Four Palms",
+        "Hakkeshō Kaiten (Rotación Celestial de los Ocho Trigramas)",
+        "Chidori Stream",
+        "Shinra Tensei"
+      ],
+      "correct": 1,
+      "hint": "Expulsa chakra por todos los tenketsu de su cuerpo mientras gira rápidamente."
+    },
+    {
+      "id": 28,
+      "question": "¿Quién fue el maestro de Taijutsu de Kakashi, Asuma, Kurenai y Guy cuando eran niños?",
+      "options": [
+        "Sakumo Hatake",
+        "Might Duy (Padre de Guy)",
+        "Hiruzen Sarutobi",
+        "Danō Shimura"
+      ],
+      "correct": 1,
+      "hint": "Conocido como el 'Eterno Genin' que dominó las Ocho Puertas."
+    },
+    {
+      "id": 29,
+      "question": "¿Qué transformación única alcanza Naruto combinando el Rasengan con la naturaleza del viento?",
+      "options": [
+        "Rasenshuriken",
+        "Oodama Rasengan",
+        "Chō Oodama Rasengan",
+        "Rasenrenjan"
+      ],
+      "correct": 0,
+      "hint": "Crea una shuriken gigante de viento que corta a nivel celular."
+    },
+    {
+      "id": 30,
+      "question": "¿Qué ojo posee Kakashi Hatake en su cuenca izquierda durante la mayor parte de la serie?",
+      "options": [
+        "Byakugan",
+        "Sharingan de Itachi",
+        "Sharingan de Obito",
+        "Rinnegan de Nagato"
+      ],
+      "correct": 2,
+      "hint": "Se lo regaló su amigo moribundo como regalo por convertirse en Jōnin."
+    }
+  ]
+}

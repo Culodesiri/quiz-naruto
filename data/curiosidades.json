@@ -1,0 +1,366 @@
+{
+  "title": "Lore, Curiosidades y Exámenes Chūnin",
+  "description": "Secretos de las aldeas, los clanes, la comida favorita de Naruto y detalles de trasfondo.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Cuál es la comida favorita absoluta de Naruto Uzumaki?",
+      "options": [
+        "Dango",
+        "Ramen de Ichiraku",
+        "Yakiniku",
+        "Onigiri"
+      ],
+      "correct": 1,
+      "hint": "Un plato de fideos calientes en su restaurante local preferido."
+    },
+    {
+      "id": 2,
+      "question": "¿Cómo se llama el dueño y chef del puesto de Ramen Ichiraku?",
+      "options": [
+        "Teuchi",
+        "Ayame",
+        "Tazuna",
+        "Genzō"
+      ],
+      "correct": 0,
+      "hint": "Un amable hombre que siempre trató a Naruto con cariño desde niño."
+    },
+    {
+      "id": 3,
+      "question": "¿Cuál es la primera prueba escrita de los Exámenes Chūnin organizada por Ibiki Morino?",
+      "options": [
+        "Un combate individual",
+        "Un examen con preguntas imposibles pensado para poner a prueba la capacidad de copiar sin ser descubierto",
+        "Una carrera en el bosque",
+        "Una prueba de supervivencia"
+      ],
+      "correct": 1,
+      "hint": "La verdadera prueba evaluaba el sigilo para obtener información en situaciones límite."
+    },
+    {
+      "id": 4,
+      "question": "¿Dónde tuvo lugar la segunda fase de los Exámenes Chūnin donde debían conseguir los pergaminos del Cielo y la Tierra?",
+      "options": [
+        "En el Valle del Fin",
+        "En el Bosque de la Muerte",
+        "En la Torre de la Arena",
+        "En el Desierto de la Extinción"
+      ],
+      "correct": 1,
+      "hint": "Un territorio salvaje lleno de bestias gigantes y ninjas enemigos."
+    },
+    {
+      "id": 5,
+      "question": "¿Cómo se llama el padre de Kakashi Hatake, conocido como el Colmillo Blanco de Konoha?",
+      "options": [
+        "Sakumo Hatake",
+        "Torune Hatake",
+        "Kenji Hatake",
+        "Daisuke Hatake"
+      ],
+      "correct": 0,
+      "hint": "Se quitó la vida tras ser deshonrado por salvar a sus compañeros antes que la misión."
+    },
+    {
+      "id": 6,
+      "question": "¿Qué tres ninjas legendarios son conocidos como los Sannin de Konoha?",
+      "options": [
+        "Kakashi, Guy y Asuma",
+        "Jiraiya, Tsunade y Orochimaru",
+        "Minato, Kushina y Fugaku",
+        "Hashirama, Tobirama y Madara"
+      ],
+      "correct": 1,
+      "hint": "Entrenados por el Tercer Hokage y nombrados por Hanzō de la Salamandra."
+    },
+    {
+      "id": 7,
+      "question": "¿Quién fue el Primer Hokage y fundador de la Aldea Oculta de la Hoja junto con Madara Uchiha?",
+      "options": [
+        "Tobirama Senju",
+        "Hashirama Senju",
+        "Hiruzen Sarutobi",
+        "Minato Namikaze"
+      ],
+      "correct": 1,
+      "hint": "Poseedor del legendario Kekkei Genkai del Elemento Madera (Mokuton)."
+    },
+    {
+      "id": 8,
+      "question": "¿Qué hermano menor del Primer Hokage fue el Segundo Hokage y creador del Kage Bunshin y Edo Tensei?",
+      "options": [
+        "Tobirama Senju",
+        "Hashirama Senju",
+        "Itama Senju",
+        "Kawarama Senju"
+      ],
+      "correct": 0,
+      "hint": "Un Ninja especialista en Elemento Agua (Suiton) de carácter pragmático."
+    },
+    {
+      "id": 9,
+      "question": "¿Cómo se llamaba el equipo de constructores del puente en el País de las Olas que defendió el Equipo 7 en su primera misión Rango S?",
+      "options": [
+        "Inari y Tazuna",
+        "Gatō y Zabuza",
+        "Genzō y Haku",
+        "Kaiza y Kōta"
+      ],
+      "correct": 0,
+      "hint": "El anciano maestro carpintero y su nieto."
+    },
+    {
+      "id": 10,
+      "question": "¿Cuál era la verdadera naturaleza del compañero de Zabuza, Haku?",
+      "options": [
+        "Poseía el Kekkei Genkai del Hielo (Hyōton)",
+        "Era una marioneta",
+        "Era un espía de Akatsuki",
+        "Era un demonio sin forma física"
+      ],
+      "correct": 0,
+      "hint": "Utilizaba los Espejos de Hielo Demoníacos."
+    },
+    {
+      "id": 11,
+      "question": "¿Qué significado tienen los caracteres kanji bordados en la espalda de la capa de Naruto como Hokage?",
+      "options": [
+        "Séptimo Hokage (Nanadaime Hokage)",
+        "El más fuerte de la hoja",
+        "Dios Ninja",
+        "Héroe del Mundo"
+      ],
+      "correct": 0,
+      "hint": "Sétima generación de líderes de Konohagakure."
+    },
+    {
+      "id": 12,
+      "question": "¿Cómo se llama el país o aldea oculta gobernada por el Kazekage?",
+      "options": [
+        "Sunagakure (Aldea Oculta de la Arena)",
+        "Kirigakure (Aldea Oculta de la Niebla)",
+        "Kumogakure (Aldea Oculta del Rayo)",
+        "Iwagakure (Aldea Oculta de la Roca)"
+      ],
+      "correct": 0,
+      "hint": "Ubicada en el País del Viento."
+    },
+    {
+      "id": 13,
+      "question": "¿Quién fue el instructor del Equipo Guy compuesto por Neji, Tenten y Rock Lee?",
+      "options": [
+        "Might Guy",
+        "Kakashi Hatake",
+        "Asuma Sarutobi",
+        "Yamato"
+      ],
+      "correct": 0,
+      "hint": "El ninja apasionado de las cejas pobladas y el traje verde de entrenamiento."
+    },
+    {
+      "id": 14,
+      "question": "¿Qué libro de novelas eróticas escrito por Jiraiya leía constantemente Kakashi?",
+      "options": [
+        "Icha Icha Paradise (Make-Out Paradise)",
+        "Tales of a Gutsy Ninja",
+        "Tales of Shinobi",
+        "Shinobi Love"
+      ],
+      "correct": 0,
+      "hint": "Serie de libros románticos muy popular entre adultos en el mundo ninja."
+    },
+    {
+      "id": 15,
+      "question": "¿Qué regalo especial le dio Hinata Hyūga a Naruto durante la película 'The Last'?",
+      "options": [
+        "Una bufanda roja tejida a mano",
+        "Un protector de frente especial",
+        "Un amuleto de cristal",
+        "Un rollo de ramen"
+      ],
+      "correct": 0,
+      "hint": "Un objeto de abrigo tejido con mucho cariño para el invierno."
+    },
+    {
+      "id": 16,
+      "question": "¿Cómo se llama la hija de Naruto y Hinata?",
+      "options": [
+        "Himawari Uzumaki",
+        "Sarada Uchiha",
+        "Chocho Akimichi",
+        "Hanabi Hyūga"
+      ],
+      "correct": 0,
+      "hint": "Su nombre significa 'girasol' en japonés."
+    },
+    {
+      "id": 17,
+      "question": "¿Cómo se llama el hijo mayor de Naruto y Hinata?",
+      "options": [
+        "Boruto Uzumaki",
+        "Kawaki",
+        "Mitsuki",
+        "Shikadai"
+      ],
+      "correct": 0,
+      "hint": "El protagonista de la secuela 'Next Generations'."
+    },
+    {
+      "id": 18,
+      "question": "¿Qué técnica especial de invocar sapos utilizaba Jiraiya para atrapar a sus enemigos en el estómago de un sapo gigante de montaña?",
+      "options": [
+        "Gamaguchi Shibari (Atadura del Estómago de Sapo)",
+        "Katsuyu Daibunretsu",
+        "Kuchiyose: Yatai Kuzushi no Jutsu",
+        "Doton: Yomi no Numa"
+      ],
+      "correct": 0,
+      "hint": "Transforma el entorno en las paredes del sistema digestivo del sapo Myōboku."
+    },
+    {
+      "id": 19,
+      "question": "¿Quién era la madre de Naruto Uzumaki y antigua Jinchūriki del Nueve Colas?",
+      "options": [
+        "Kushina Uzumaki",
+        "Mito Uzumaki",
+        "Mikoto Uchiha",
+        "Rin Nohara"
+      ],
+      "correct": 0,
+      "hint": "Conocida como el Habanero Sangriento de Konoha por su pelo rojo y carácter temperamental."
+    },
+    {
+      "id": 20,
+      "question": "¿De qué clan proviene la extraordinaria cantidad de chakra y longevidad de Naruto?",
+      "options": [
+        "Clan Senju",
+        "Clan Uzumaki",
+        "Clan Namikaze",
+        "Clan Hyūga"
+      ],
+      "correct": 1,
+      "hint": "Famosos por sus pelos rojos, técnicas de sellado (Fūinjutsu) y la aldea de Uzushio."
+    },
+    {
+      "id": 21,
+      "question": "¿Qué animal de invocación usa Sasuke durante su entrenamiento y combates posteriores con Orochimaru?",
+      "options": [
+        "Serpientes (Manda/Aoda)",
+        "Sapos",
+        "Perros",
+        "Gatos"
+      ],
+      "correct": 0,
+      "hint": "Reptiles gigantes de la cueva Ryūchi."
+    },
+    {
+      "id": 22,
+      "question": "¿Cuál es la frase célebre o muletilla que repite continuamente Naruto al hablar en japonés?",
+      "options": [
+        "¡Dattebayo! (¡Vaya que sí! / Believe it!)",
+        "¡Usuratonkachi!",
+        "¡Dattebane!",
+        "¡Mondo de gozaru!"
+      ],
+      "correct": 0,
+      "hint": "Heredó esta muletilla modificada de su madre Kushina."
+    },
+    {
+      "id": 23,
+      "question": "¿Cómo se llama el veneno que usaba Sasori y que Sakura logró neutralizar creando un antídoto?",
+      "options": [
+        "Veneno de escorpión de metal pesado",
+        "Veneno de serpiente negra",
+        "Toxina de flor de loto",
+        "Gas durmiente"
+      ],
+      "correct": 0,
+      "hint": "Un veneno orgánico complejo que destruye las células en 3 días."
+    },
+    {
+      "id": 24,
+      "question": "¿Quién fue el samurai líder del País del Hierro que actuó como mediador en la Cumbre de los Cinco Kages?",
+      "options": [
+        "Mifune",
+        "Hanzo",
+        "Tazuna",
+        "Chiyo"
+      ],
+      "correct": 0,
+      "hint": "Un maestro del Kenjutsu capaz de cortar el chakra de las manos antes de sellar."
+    },
+    {
+      "id": 25,
+      "question": "¿Qué Kage de la Aldea de la Roca (Iwagakure) poseía el Kekkei Tōta del Elemento Polvo (Jinton)?",
+      "options": [
+        "Ōnoki (Tercer Tsuchikage)",
+        "A (Cuarto Raikage)",
+        "Mei Terumī (Mizukage)",
+        "Gaara"
+      ],
+      "correct": 0,
+      "hint": "Un anciano muy bajito con dolores de espalda."
+    },
+    {
+      "id": 26,
+      "question": "¿Qué Mizukage de la Aldea de la Niebla poseía dos Kekkei Genkai (Lava y Vapor)?",
+      "options": [
+        "Mei Terumī",
+        "Yagura Karatachi",
+        "Zabuza",
+        "Suigetsu"
+      ],
+      "correct": 0,
+      "hint": "Una bella kunoichi obsesionada con encontrar pareja."
+    },
+    {
+      "id": 27,
+      "question": "¿Cómo se llama el grupo de ninjas de élite directamente bajo el mando del Hokage para misiones de asesinato e infiltración?",
+      "options": [
+        "ANBU",
+        "Akatsuki",
+        "Siete Espadachines",
+        "Guardianes Doce"
+      ],
+      "correct": 0,
+      "hint": "Visten túnicas blancas y máscaras de animales de porcelana."
+    },
+    {
+      "id": 28,
+      "question": "¿Quién era el líder de la división secreta 'Raíz' (Root) dentro de los ANBU?",
+      "options": [
+        "Danō Shimura",
+        "Homura Mitokado",
+        "Koharu Utatane",
+        "Sai"
+      ],
+      "correct": 0,
+      "hint": "Un anciano despiadado con un brazo lleno de Sharingans implantados."
+    },
+    {
+      "id": 29,
+      "question": "¿Qué personaje del Equipo Kakashi utilizaba técnicas de tinta para dar vida a sus dibujos?",
+      "options": [
+        "Sai",
+        "Yamato",
+        "Chōjūrō",
+        "Darui"
+      ],
+      "correct": 0,
+      "hint": "Un ninja creado en Raíz que sustituyó a Sasuke en Shippuden."
+    },
+    {
+      "id": 30,
+      "question": "¿Qué usuario del Mokuton (Elemento Madera) fue implantado con células de Hashirama para controlar el chakra del Nueve Colas?",
+      "options": [
+        "Yamato (Tenzo)",
+        "Sai",
+        "Danō",
+        "Kabuto"
+      ],
+      "correct": 0,
+      "hint": "El ninja ANBU que tomó el mando temporal del Equipo 7."
+    }
+  ]
+}

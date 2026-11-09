@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naruto Shippuden Quiz - Examen Ninja</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #12100e;
+      color: #f1f5f9;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .app-container {
+      width: 100%;
+      max-width: 850px;
+      background: #1c1713;
+      border-radius: 16px;
+      border: 2px solid #38291e;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+      padding: 30px;
+      overflow: hidden;
+    }
+
+    .main-header {
+      text-align: center;
+      border-bottom: 2px solid #ff6600;
+      padding-bottom: 20px;
+      margin-bottom: 25px;
+    }
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      color: #ff6600;
+    }
+
+    .main-header h1 {
+      font-size: 2.2rem;
+      color: #ffffff;
+      letter-spacing: 0.5px;
+      text-shadow: 0 0 10px rgba(255, 102, 0, 0.5);
+    }
+
+    .subtitle {
+      color: #d1a880;
+      font-size: 0.95rem;
+      margin-top: 5px;
+    }
+
+    .screen {
+      display: none;
+    }
+
+    .screen.active {
+      display: block;
+      animation: fadeIn 0.3s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .section-title {
+      font-size: 1.3rem;
+      margin-bottom: 20px;
+      color: #ff9933;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .quiz-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      margin-bottom: 35px;
+    }
+
+    .quiz-card {
+      background: #2b221b;
+      border: 1px solid #4a3627;
+      border-radius: 12px;
+      padding: 20px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .quiz-card:hover {
+      transform: translateY(-5px);
+      border-color: #ff6600;
+      box-shadow: 0 8px 20px rgba(255, 102, 0, 0.3);
+    }
+
+    .quiz-card h4 {
+      font-size: 1.15rem;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+
+    .quiz-card p {
+      font-size: 0.85rem;
+      color: #c9b19c;
+      margin-bottom: 20px;
+      line-height: 1.4;
+    }
+
+    .quiz-card .btn-start {
+      background: #ff6600;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      text-align: center;
+      transition: background 0.2s;
+    }
+
+    .quiz-card:hover .btn-start {
+      background: #e65c00;
+    }
+
+    .ranking-section {
+      background: #241c16;
+      border-radius: 12px;
+      padding: 20px;
+      border: 1px solid #38291e;
+    }
+
+    .ranking-section h3 {
+      color: #ffcc00;
+      margin-bottom: 15px;
+      font-size: 1.1rem;
+    }
+
+    .ranking-table-wrapper {
+      max-height: 200px;
+      overflow-y: auto;
+    }
+
+    .ranking-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    .ranking-table th, .ranking-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #38291e;
+      font-size: 0.9rem;
+    }
+
+    .ranking-table th {
+      color: #d1a880;
+      font-weight: 600;
+    }
+
+    .empty-ranking {
+      color: #8c735c;
+      font-size: 0.9rem;
+      font-style: italic;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    .quiz-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .quiz-progress-info {
+      display: flex;
+      gap: 20px;
+      font-weight: bold;
+      font-size: 0.95rem;
+      color: #ff9933;
+    }
+
+    .progress-bar-container {
+      width: 100%;
+      height: 8px;
+      background: #2b221b;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 25px;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      width: 0%;
+      background: #ff6600;
+      transition: width 0.3s ease;
+    }
+
+    .question-card {
+      background: #2b221b;
+      border: 1px solid #4a3627;
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 25px;
+    }
+
+    .question-card h3 {
+      font-size: 1.25rem;
+      color: #ffffff;
+      margin-bottom: 20px;
+      line-height: 1.4;
+    }
+
+    .options-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    .option-btn {
+      background: #18130f;
+      border: 2px solid #4a3627;
+      color: #f1f5f9;
+      padding: 14px 18px;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      cursor: pointer;
+      text-align: left;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .option-btn:hover:not(.disabled) {
+      border-color: #ff6600;
+      background: #241c16;
+    }
+
+    .option-btn.selected {
+      border-color: #ff9933;
+      background: #cc5200;
+    }
+
+    .option-btn.correct {
+      background: #166534 !important;
+      border-color: #22c55e !important;
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+    .option-btn.incorrect {
+      background: #991b1b !important;
+      border-color: #ef4444 !important;
+      color: #ffffff;
+    }
+
+    .option-btn.disabled {
+      cursor: default;
+      opacity: 0.85;
+    }
+
+    .hint-box {
+      margin-top: 15px;
+      background: #451a03;
+      border: 1px solid #78350f;
+      color: #fde047;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+
+    .quiz-controls {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+    }
+
+    .btn-primary, .btn-secondary, .btn-hint {
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 0.95rem;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn-primary {
+      background: #ff6600;
+      color: white;
+    }
+
+    .btn-primary:hover:not(:disabled) {
+      background: #e65c00;
+    }
+
+    .btn-primary:disabled {
+      background: #4a3627;
+      color: #8c735c;
+      cursor: not-allowed;
+    }
+
+    .btn-secondary {
+      background: #38291e;
+      color: white;
+    }
+
+    .btn-secondary:hover {
+      background: #4a3627;
+    }
+
+    .btn-hint {
+      background: #78350f;
+      color: #fde047;
+    }
+
+    .btn-hint:hover:not(:disabled) {
+      background: #92400e;
+    }
+
+    .results-card {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .result-icon {
+      font-size: 4rem;
+      color: #ffcc00;
+      margin-bottom: 15px;
+    }
+
+    .results-card h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .result-subtitle {
+      color: #d1a880;
+      margin-bottom: 25px;
+    }
+
+    .score-badge {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #ff9933;
+      background: #2b221b;
+      display: inline-block;
+      padding: 15px 40px;
+      border-radius: 50px;
+      border: 2px solid #ff6600;
+      margin-bottom: 30px;
+    }
+
+    .save-score-form {
+      max-width: 450px;
+      margin: 0 auto 30px auto;
+      background: #2b221b;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #4a3627;
+    }
+
+    .save-score-form label {
+      display: block;
+      font-size: 0.9rem;
+      color: #d1a880;
+      margin-bottom: 10px;
+    }
+
+    .input-group {
+      display: flex;
+      gap: 10px;
+    }
+
+    .input-group input {
+      flex: 1;
+      padding: 10px 14px;
+      border-radius: 6px;
+      border: 1px solid #4a3627;
+      background: #18130f;
+      color: white;
+    }
+
+    .results-actions {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="app-container">
+    <header class="main-header">
+      <div class="logo-area">
+        <h1>📜 Naruto Quiz Challenge</h1>
+      </div>
+      <p class="subtitle">¡Demuestra tu camino ninja y conviértete en Hokage!</p>
+    </header>
+
+    <!-- PANTALLA 1: MENÚ PRINCIPAL -->
+    <main id="screen-menu" class="screen active">
+      <h2 class="section-title">🗡️ Selecciona un Cuestionario</h2>
+      <div class="quiz-grid" id="quiz-list"></div>
+
+      <section class="ranking-section">
+        <h3>🏆 Salón de la Fama - Ranking Shinobi</h3>
+        <div id="ranking-container" class="ranking-table-wrapper">
+          <p class="empty-ranking">Aún no hay puntuaciones registradas. ¡Sé el primero en jugar!</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- PANTALLA 2: JUEGO -->
+    <main id="screen-quiz" class="screen">
+      <div class="quiz-header">
+        <button id="btn-abort" class="btn-secondary">⬅️ Menú</button>
+        <div class="quiz-progress-info">
+          <span id="question-counter">Pregunta 1 / 10</span>
+          <span id="score-counter">⭐ Puntos: 0</span>
+        </div>
+      </div>
+
+      <div class="progress-bar-container">
+        <div id="progress-bar" class="progress-bar-fill"></div>
+      </div>
+
+      <div class="question-card">
+        <h3 id="question-text">Cargando pregunta...</h3>
+        
+        <div id="options-container" class="options-grid"></div>
+
+        <div id="hint-box" class="hint-box" style="display: none;">
+          💡 <strong>Pista Pergamino:</strong> <span id="hint-text"></span>
+        </div>
+      </div>
+
+      <div class="quiz-controls">
+        <button id="btn-hint" class="btn-hint">💡 Usar Pista</button>
+        <button id="btn-action" class="btn-primary" disabled>Confirmar Respuesta</button>
+      </div>
+    </main>
+
+    <!-- PANTALLA 3: RESULTADOS -->
+    <main id="screen-results" class="screen">
+      <div class="results-card">
+        <div class="result-icon">🎖️</div>
+        <h2>¡Examen Finalizado!</h2>
+        <p class="result-subtitle" id="result-message">Excelente trabajo, Shinobi</p>
+        
+        <div class="score-badge">
+          <span id="final-score">0</span> / <span id="max-score">10</span>
+        </div>
+
+        <div class="save-score-form">
+          <label for="player-name">Introduce tu Nombre Ninja para el Registro:</label>
+          <div class="input-group">
+            <input type="text" id="player-name" placeholder="Tu Nombre Ninja / Clan" maxlength="20">
+            <button id="btn-save-score" class="btn-primary">Guardar Registro</button>
+          </div>
+        </div>
+
+        <div class="results-actions">
+          <button id="btn-restart" class="btn-secondary">🔄 Repetir Examen</button>
+          <button id="btn-home" class="btn-primary">🏠 Volver al Menú</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

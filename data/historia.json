@@ -1,0 +1,366 @@
+{
+  "title": "Historia y Arcos Principales de Naruto",
+  "description": "Demuestra tus conocimientos sobre la trama desde el inicio hasta la Gran Guerra Ninja.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Quién fue el maestro principal del Equipo 7 compuesto por Naruto, Sasuke y Sakura?",
+      "options": [
+        "Iruka Umino",
+        "Kakashi Hatake",
+        "Jiraiya",
+        "Yamato"
+      ],
+      "correct": 1,
+      "hint": "Es conocido como el Ninja Copia y posee un Sharingan."
+    },
+    {
+      "id": 2,
+      "question": "¿Qué bestia con cola (Bijuu) fue sellada dentro de Naruto Uzumaki cuando era un bebé?",
+      "options": [
+        "Shukaku (1 Cola)",
+        "Isobu (3 Colas)",
+        "Kurama (9 Colas)",
+        "Gyuki (8 Colas)"
+      ],
+      "correct": 2,
+      "hint": "Es un zorro gigante de fuego con nueve colas."
+    },
+    {
+      "id": 3,
+      "question": "¿Cuál es el sueño principal de Naruto Uzumaki desde el inicio de la serie?",
+      "options": [
+        "Vengar a su clan",
+        "Convertirse en Hokage",
+        "Aprender todos los jutsus del mundo",
+        "Derrotar a Akatsuki"
+      ],
+      "correct": 1,
+      "hint": "Desea ser el líder de la Aldea Oculta de la Hoja para ser reconocido por todos."
+    },
+    {
+      "id": 4,
+      "question": "¿Quién fue el Cuarto Hokage de Konoha y cuál era su relación con Naruto?",
+      "options": [
+        "Sarutobi (Abuelo)",
+        "Minato Namikaze (Padre)",
+        "Tobirama Senju (Tío)",
+        "Tsunade (Madre)"
+      ],
+      "correct": 1,
+      "hint": "Era conocido como el Rayo Amarillo de Konoha."
+    },
+    {
+      "id": 5,
+      "question": "¿Cuál fue el primer jutsu prohibido que aprendió Naruto tras robar el pergamino sagrado?",
+      "options": [
+        "Rasengan",
+        "Kage Bunshin no Jutsu (Clones de Sombra)",
+        "Chidori",
+        "Kuchiyose no Jutsu"
+      ],
+      "correct": 1,
+      "hint": "Le permite crear cientos de copias físicas de sí mismo."
+    },
+    {
+      "id": 6,
+      "question": "¿Qué villano interrumpió los Exámenes Chūnin y asesinó al Tercer Hokage (Hiruzen Sarutobi)?",
+      "options": [
+        "Itachi Uchiha",
+        "Orochimaru",
+        "Pain",
+        "Madara Uchiha"
+      ],
+      "correct": 1,
+      "hint": "Uno de los legendarios Sannin, obsesionado con la inmortalidad y las serpientes."
+    },
+    {
+      "id": 7,
+      "question": "¿Quién le enseñó a Naruto la técnica del Rasengan?",
+      "options": [
+        "Kakashi Hatake",
+        "Jiraiya",
+        "Tsunade",
+        "Ebisu"
+      ],
+      "correct": 1,
+      "hint": "Uno de los tres Sannin, apodado el 'Sabio Sapo' (Ero-sennin)."
+    },
+    {
+      "id": 8,
+      "question": "¿Qué miembro del clan Uchiha exterminó a casi todo su clan en una sola noche?",
+      "options": [
+        "Sasuke Uchiha",
+        "Madara Uchiha",
+        "Itachi Uchiha",
+        "Obito Uchiha"
+      ],
+      "correct": 2,
+      "hint": "Era el hermano mayor de Sasuke."
+    },
+    {
+      "id": 9,
+      "question": "¿Cómo se llama la organización de ninjas renegados que buscaba capturar a todos los Jinchūriki?",
+      "options": [
+        "ANBU",
+        "Akatsuki",
+        "Taka",
+        "Root (Raíz)"
+      ],
+      "correct": 1,
+      "hint": "Sus miembros vestían capas negras con nubes rojas."
+    },
+    {
+      "id": 10,
+      "question": "¿Cuál es el nombre del líder manifiesto de Akatsuki que atacó y destruyó Konoha con el Shinra Tensei?",
+      "options": [
+        "Sasori",
+        "Deidara",
+        "Pain / Nagato",
+        "Kakuzu"
+      ],
+      "correct": 2,
+      "hint": "Poseía el Rinnegan y controlaba los Seis Caminos del Dolor."
+    },
+    {
+      "id": 11,
+      "question": "¿Qué técnica médica legendaria utiliza Tsunade Senju para regenerar sus heridas al instante?",
+      "options": [
+        "Byakugou no Jutsu (Sello Fuerza de Cien)",
+        "Rasengan",
+        "Shiyō Senjutsu",
+        "Kage Bunshin"
+      ],
+      "correct": 0,
+      "hint": "Libera una enorme cantidad de chakra almacenado en el sello de su frente."
+    },
+    {
+      "id": 12,
+      "question": "¿En qué modo entra Naruto tras entrenar en el Monte Myōboku con los sapos?",
+      "options": [
+        "Modo Chakra del Kyubi",
+        "Modo Sabio (Senjutsu)",
+        "Modo Barion",
+        "Modo Asura"
+      ],
+      "correct": 1,
+      "hint": "Consiste en armonizar la energía natural con el propio chakra, cambiando sus ojos a forma de sapo."
+    },
+    {
+      "id": 13,
+      "question": "¿Quién fue el verdadero cerebro detrás del plan del 'Ojo de la Luna' (Tsukuyomi Infinito) haciendo creer que era Madara?",
+      "options": [
+        "Kabuto Yakushi",
+        "Zetsu Negro / Kaguya Ōtsutsuki",
+        "Danō Shimura",
+        "Kisame Hoshigaki"
+      ],
+      "correct": 1,
+      "hint": "Una entidad oscura creada a partir de la voluntad de la Madre del Chakra."
+    },
+    {
+      "id": 14,
+      "question": "¿Quién resucitó al ejército de ninjas legendarios durante la Cuarta Gran Guerra Ninja usando el Edo Tensei?",
+      "options": [
+        "Orochimaru",
+        "Kabuto Yakushi",
+        "Obito Uchiha",
+        "Zetsu Blanco"
+      ],
+      "correct": 1,
+      "hint": "El antiguo asistente y discípulo de Orochimaru que dominó la técnica del dragón blanco."
+    },
+    {
+      "id": 15,
+      "question": "¿En qué valle tuvo lugar la pelea final entre Naruto Uzumaki y Sasuke Uchiha?",
+      "options": [
+        "El Valle del Fin",
+        "El Valle de las Nubes",
+        "El Valle de los Muertos",
+        "El Bosque de la Muerte"
+      ],
+      "correct": 0,
+      "hint": "Donde se encuentran las gigantescas estatuas esculpidas de Hashirama Senju y Madara Uchiha."
+    },
+    {
+      "id": 16,
+      "question": "¿Qué importante parte del cuerpo perdieron Naruto y Sasuke tras su enfrentamiento decisivo en Shippuden?",
+      "options": [
+        "Una pierna",
+        "Su ojo izquierdo",
+        "Su brazo dominante / izquierdo-derecho",
+        "Su voz"
+      ],
+      "correct": 2,
+      "hint": "Naruto más tarde recibió una prótesis hecha con células de Hashirama."
+    },
+    {
+      "id": 17,
+      "question": "¿Quién se convirtió en el Sexto Hokage tras la Cuarta Gran Guerra Shinobi?",
+      "options": [
+        "Naruto Uzumaki",
+        "Kakashi Hatake",
+        "Shikamaru Nara",
+        "Sakura Haruno"
+      ],
+      "correct": 1,
+      "hint": "El maestro del Equipo 7 que perdió el Sharingan durante la guerra."
+    },
+    {
+      "id": 18,
+      "question": "¿Cuál era la verdadera identidad de Tobi dentro de Akatsuki?",
+      "options": [
+        "Shisui Uchiha",
+        "Izuna Uchiha",
+        "Obito Uchiha",
+        "Fugaku Uchiha"
+      ],
+      "correct": 2,
+      "hint": "Antiguo compañero de equipo de Kakashi y Rin que se creía muerto tras una misión en el puente Kannabi."
+    },
+    {
+      "id": 19,
+      "question": "¿Qué objeto o accesorio le regaló Tsunade a Naruto tras ganar la apuesta sobre dominar el Rasengan?",
+      "options": [
+        "Una espada ninja",
+        "El collar del Primer Hokage",
+        "Un pergamino prohibido",
+        "Su banda de la aldea"
+      ],
+      "correct": 1,
+      "hint": "Un valioso amuleto verde cristalino que perteneció a Hashirama Senju."
+    },
+    {
+      "id": 20,
+      "question": "¿Qué equipo ninja estaba integrado por Shikamaru, Chōji e Ino?",
+      "options": [
+        "Equipo 7",
+        "Equipo 8",
+        "Equipo 10 (Ino-Shika-Chō)",
+        "Equipo Guy"
+      ],
+      "correct": 2,
+      "hint": "Un trío legendario de clanes dirigidos originalmente por Asuma Sarutobi."
+    },
+    {
+      "id": 21,
+      "question": "¿Cómo se llamaba la espada demoníaca que portaba Kisame Hoshigaki?",
+      "options": [
+        "Kubikiribōchō",
+        "Samehada",
+        "Kiba",
+        "Hiramekarei"
+      ],
+      "correct": 1,
+      "hint": "Una espada con escamas que devora el chakra de sus oponentes."
+    },
+    {
+      "id": 22,
+      "question": "¿Qué maestro sacrificó su vida entrenando a Rock Lee y abriendo la Octava Puerta de la Muerte contra Madara Uchiha?",
+      "options": [
+        "Kakashi Hatake",
+        "Might Guy",
+        "Asuma Sarutobi",
+        "Jiraiya"
+      ],
+      "correct": 1,
+      "hint": "La 'Bestia Verde de Konoha' y rival eterno de Kakashi."
+    },
+    {
+      "id": 23,
+      "question": "¿Cuál es el verdadero motivo por el cual Itachi Uchiha eliminó a su propio clan?",
+      "options": [
+        "Por deseo de poder personal",
+        "Para proteger a la aldea de un golpe de estado y salvar a Sasuke",
+        "Siguiendo órdenes de Akatsuki",
+        "Por estar bajo un genjutsu de Madara"
+      ],
+      "correct": 1,
+      "hint": "Actuó en secreto bajo las órdenes de los altos mandos de Konoha para evitar una guerra civil."
+    },
+    {
+      "id": 24,
+      "question": "¿Qué técnica suprema de espacio-tiempo usaba Minato Namikaze para teletransportarse a marcas de kunai especiales?",
+      "options": [
+        "Hiraishin no Jutsu (Dios del Trueno Volador)",
+        "Shunshin no Jutsu",
+        "Kamui",
+        "Kawarimi no Jutsu"
+      ],
+      "correct": 0,
+      "hint": "Le valió el apodo de Rayo Amarillo."
+    },
+    {
+      "id": 25,
+      "question": "¿Cómo se llama el espíritu sellado en Gaara durante su infancia en la Aldea de la Arena?",
+      "options": [
+        "Kokuō",
+        "Shukaku (Una Cola)",
+        "Saiken",
+        "Chōmei"
+      ],
+      "correct": 1,
+      "hint": "Un mapache tanuki gigante de arena y chakra."
+    },
+    {
+      "id": 26,
+      "question": "¿Quién fue la primera persona en la historia en utilizar y transmitir el chakra, conocida como la Diosa Conejo?",
+      "options": [
+        "Mito Uzumaki",
+        "Kaguya Ōtsutsuki",
+        "Kushina Uzumaki",
+        "Rin Nohara"
+      ],
+      "correct": 1,
+      "hint": "Comió el fruto del Árbol del Chakra y es la madre del Sabio de los Seis Caminos."
+    },
+    {
+      "id": 27,
+      "question": "¿Qué ninja médico fue el maestro de Sakura Haruno en Shippuden?",
+      "options": [
+        "Shizune",
+        "Tsunade Senju",
+        "Kurenai Yūhi",
+        "Chiyo"
+      ],
+      "correct": 1,
+      "hint": "La Quinta Hokage y nieta del Primer Hokage."
+    },
+    {
+      "id": 28,
+      "question": "¿Cómo se llama la técnica prohibida con la que el Tercer Hokage intentó sellar a Orochimaru?",
+      "options": [
+        "Shiki Fūjin (Sello Consumidor del Demonio de la Muerte)",
+        "Edo Tensei",
+        "Chibaku Tensei",
+        "Izanagi"
+      ],
+      "correct": 0,
+      "hint": "Invoca a la Parca (Shinigami) a cambio del alma del usuario."
+    },
+    {
+      "id": 29,
+      "question": "¿Qué personaje era el mentor y líder del Equipo 8 (Hinata, Kiba y Shino)?",
+      "options": [
+        "Anko Mitarashi",
+        "Kurenai Yūhi",
+        "Shizune",
+        "Temari"
+      ],
+      "correct": 1,
+      "hint": "Una especialista en Genjutsu que más tarde tuvo un hijo con Asuma Sarutobi."
+    },
+    {
+      "id": 30,
+      "question": "¿Quién se convierte finalmente en el Séptimo Hokage de Konoha?",
+      "options": [
+        "Sasuke Uchiha",
+        "Konohamaru Sarutobi",
+        "Naruto Uzumaki",
+        "Shikamaru Nara"
+      ],
+      "correct": 2,
+      "hint": "Cumple su sueño de la infancia al final de la historia."
+    }
+  ]
+}
