@@ -11,7 +11,6 @@
       padding: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-
     body {
       background-color: #12100e;
       color: #f1f5f9;
@@ -21,7 +20,6 @@
       align-items: center;
       padding: 20px;
     }
-
     .app-container {
       width: 100%;
       max-width: 850px;
@@ -32,65 +30,44 @@
       padding: 30px;
       overflow: hidden;
     }
-
     .main-header {
       text-align: center;
       border-bottom: 2px solid #ff6600;
       padding-bottom: 20px;
       margin-bottom: 25px;
     }
-
-    .logo-area {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 15px;
-      color: #ff6600;
-    }
-
-    .main-header h1 {
+    .logo-area h1 {
       font-size: 2.2rem;
       color: #ffffff;
-      letter-spacing: 0.5px;
       text-shadow: 0 0 10px rgba(255, 102, 0, 0.5);
     }
-
     .subtitle {
       color: #d1a880;
       font-size: 0.95rem;
       margin-top: 5px;
     }
-
     .screen {
       display: none;
     }
-
     .screen.active {
       display: block;
       animation: fadeIn 0.3s ease-in-out;
     }
-
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(10px); }
       to { opacity: 1; transform: translateY(0); }
     }
-
     .section-title {
       font-size: 1.3rem;
       margin-bottom: 20px;
       color: #ff9933;
-      display: flex;
-      align-items: center;
-      gap: 10px;
     }
-
     .quiz-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
       gap: 20px;
       margin-bottom: 35px;
     }
-
     .quiz-card {
       background: #2b221b;
       border: 1px solid #4a3627;
@@ -102,26 +79,22 @@
       flex-direction: column;
       justify-content: space-between;
     }
-
     .quiz-card:hover {
       transform: translateY(-5px);
       border-color: #ff6600;
       box-shadow: 0 8px 20px rgba(255, 102, 0, 0.3);
     }
-
     .quiz-card h4 {
       font-size: 1.15rem;
       color: #ffffff;
       margin-bottom: 10px;
     }
-
     .quiz-card p {
       font-size: 0.85rem;
       color: #c9b19c;
       margin-bottom: 20px;
       line-height: 1.4;
     }
-
     .quiz-card .btn-start {
       background: #ff6600;
       color: white;
@@ -131,48 +104,35 @@
       font-weight: bold;
       cursor: pointer;
       text-align: center;
-      transition: background 0.2s;
     }
-
-    .quiz-card:hover .btn-start {
-      background: #e65c00;
-    }
-
     .ranking-section {
       background: #241c16;
       border-radius: 12px;
       padding: 20px;
       border: 1px solid #38291e;
     }
-
     .ranking-section h3 {
       color: #ffcc00;
       margin-bottom: 15px;
       font-size: 1.1rem;
     }
-
     .ranking-table-wrapper {
       max-height: 200px;
       overflow-y: auto;
     }
-
     .ranking-table {
       width: 100%;
       border-collapse: collapse;
       text-align: left;
     }
-
     .ranking-table th, .ranking-table td {
       padding: 10px 12px;
       border-bottom: 1px solid #38291e;
       font-size: 0.9rem;
     }
-
     .ranking-table th {
       color: #d1a880;
-      font-weight: 600;
     }
-
     .empty-ranking {
       color: #8c735c;
       font-size: 0.9rem;
@@ -180,14 +140,12 @@
       text-align: center;
       padding: 15px 0;
     }
-
     .quiz-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
       margin-bottom: 15px;
     }
-
     .quiz-progress-info {
       display: flex;
       gap: 20px;
@@ -195,7 +153,6 @@
       font-size: 0.95rem;
       color: #ff9933;
     }
-
     .progress-bar-container {
       width: 100%;
       height: 8px;
@@ -204,14 +161,12 @@
       overflow: hidden;
       margin-bottom: 25px;
     }
-
     .progress-bar-fill {
       height: 100%;
       width: 0%;
       background: #ff6600;
       transition: width 0.3s ease;
     }
-
     .question-card {
       background: #2b221b;
       border: 1px solid #4a3627;
@@ -219,20 +174,17 @@
       padding: 25px;
       margin-bottom: 25px;
     }
-
     .question-card h3 {
       font-size: 1.25rem;
       color: #ffffff;
       margin-bottom: 20px;
       line-height: 1.4;
     }
-
     .options-grid {
       display: grid;
       grid-template-columns: 1fr;
       gap: 12px;
     }
-
     .option-btn {
       background: #18130f;
       border: 2px solid #4a3627;
@@ -247,35 +199,29 @@
       align-items: center;
       justify-content: space-between;
     }
-
     .option-btn:hover:not(.disabled) {
       border-color: #ff6600;
       background: #241c16;
     }
-
     .option-btn.selected {
       border-color: #ff9933;
       background: #cc5200;
     }
-
     .option-btn.correct {
       background: #166534 !important;
       border-color: #22c55e !important;
       color: #ffffff;
       font-weight: bold;
     }
-
     .option-btn.incorrect {
       background: #991b1b !important;
       border-color: #ef4444 !important;
       color: #ffffff;
     }
-
     .option-btn.disabled {
       cursor: default;
       opacity: 0.85;
     }
-
     .hint-box {
       margin-top: 15px;
       background: #451a03;
@@ -285,13 +231,11 @@
       border-radius: 8px;
       font-size: 0.9rem;
     }
-
     .quiz-controls {
       display: flex;
       justify-content: space-between;
       gap: 15px;
     }
-
     .btn-primary, .btn-secondary, .btn-hint {
       padding: 12px 24px;
       border-radius: 8px;
@@ -304,61 +248,46 @@
       align-items: center;
       gap: 8px;
     }
-
     .btn-primary {
       background: #ff6600;
       color: white;
     }
-
     .btn-primary:hover:not(:disabled) {
       background: #e65c00;
     }
-
     .btn-primary:disabled {
       background: #4a3627;
       color: #8c735c;
       cursor: not-allowed;
     }
-
     .btn-secondary {
       background: #38291e;
       color: white;
     }
-
     .btn-secondary:hover {
       background: #4a3627;
     }
-
     .btn-hint {
       background: #78350f;
       color: #fde047;
     }
-
-    .btn-hint:hover:not(:disabled) {
-      background: #92400e;
-    }
-
     .results-card {
       text-align: center;
       padding: 20px 0;
     }
-
     .result-icon {
       font-size: 4rem;
       color: #ffcc00;
       margin-bottom: 15px;
     }
-
     .results-card h2 {
       font-size: 1.8rem;
       margin-bottom: 10px;
     }
-
     .result-subtitle {
       color: #d1a880;
       margin-bottom: 25px;
     }
-
     .score-badge {
       font-size: 3rem;
       font-weight: bold;
@@ -370,7 +299,6 @@
       border: 2px solid #ff6600;
       margin-bottom: 30px;
     }
-
     .save-score-form {
       max-width: 450px;
       margin: 0 auto 30px auto;
@@ -379,19 +307,16 @@
       border-radius: 12px;
       border: 1px solid #4a3627;
     }
-
     .save-score-form label {
       display: block;
       font-size: 0.9rem;
       color: #d1a880;
       margin-bottom: 10px;
     }
-
     .input-group {
       display: flex;
       gap: 10px;
     }
-
     .input-group input {
       flex: 1;
       padding: 10px 14px;
@@ -400,7 +325,6 @@
       background: #18130f;
       color: white;
     }
-
     .results-actions {
       display: flex;
       justify-content: center;
@@ -418,7 +342,7 @@
       <p class="subtitle">¡Demuestra tu camino ninja y conviértete en Hokage!</p>
     </header>
 
-    <!-- PANTALLA 1: MENÚ PRINCIPAL -->
+    <!-- MENÚ PRINCIPAL -->
     <main id="screen-menu" class="screen active">
       <h2 class="section-title">🗡️ Selecciona un Cuestionario</h2>
       <div class="quiz-grid" id="quiz-list"></div>
@@ -431,7 +355,7 @@
       </section>
     </main>
 
-    <!-- PANTALLA 2: JUEGO -->
+    <!-- PANTALLA DE JUEGO -->
     <main id="screen-quiz" class="screen">
       <div class="quiz-header">
         <button id="btn-abort" class="btn-secondary">⬅️ Menú</button>
@@ -447,9 +371,7 @@
 
       <div class="question-card">
         <h3 id="question-text">Cargando pregunta...</h3>
-        
         <div id="options-container" class="options-grid"></div>
-
         <div id="hint-box" class="hint-box" style="display: none;">
           💡 <strong>Pista Pergamino:</strong> <span id="hint-text"></span>
         </div>
@@ -461,7 +383,7 @@
       </div>
     </main>
 
-    <!-- PANTALLA 3: RESULTADOS -->
+    <!-- PANTALLA DE RESULTADOS -->
     <main id="screen-results" class="screen">
       <div class="results-card">
         <div class="result-icon">🎖️</div>
@@ -488,6 +410,312 @@
     </main>
   </div>
 
-  <script src="script.js"></script>
+  <script>
+    // DATOS EMBEBIDOS (Sin necesidad de fetch para evitar errores locales)
+    const quizzesData = {
+      "historia.json": {
+        "title": "Historia y Arcos Principales",
+        "description": "Demuestra tus conocimientos sobre la trama desde el inicio hasta la Gran Guerra Ninja.",
+        "questions": [{"id": 1, "question": "¿Quién fue el maestro principal del Equipo 7 compuesto por Naruto, Sasuke y Sakura?", "options": ["Iruka Umino", "Kakashi Hatake", "Jiraiya", "Yamato"], "correct": 1, "hint": "Es conocido como el Ninja Copia y posee un Sharingan."}, {"id": 2, "question": "¿Qué bestia con cola (Bijuu) fue sellada dentro de Naruto Uzumaki cuando era un bebé?", "options": ["Shukaku (1 Cola)", "Isobu (3 Colas)", "Kurama (9 Colas)", "Gyuki (8 Colas)"], "correct": 2, "hint": "Es un zorro gigante de fuego con nueve colas."}, {"id": 3, "question": "¿Cuál es el sueño principal de Naruto Uzumaki desde el inicio de la serie?", "options": ["Vengar a su clan", "Convertirse en Hokage", "Aprender todos los jutsus del mundo", "Derrotar a Akatsuki"], "correct": 1, "hint": "Desea ser el líder de la Aldea Oculta de la Hoja para ser reconocido por todos."}, {"id": 4, "question": "¿Quién fue el Cuarto Hokage de Konoha y cuál era su relación con Naruto?", "options": ["Sarutobi (Abuelo)", "Minato Namikaze (Padre)", "Tobirama Senju (Tío)", "Tsunade (Madre)"], "correct": 1, "hint": "Era conocido como el Rayo Amarillo de Konoha."}, {"id": 5, "question": "¿Cuál fue el primer jutsu prohibido que aprendió Naruto tras robar el pergamino sagrado?", "options": ["Rasengan", "Kage Bunshin no Jutsu (Clones de Sombra)", "Chidori", "Kuchiyose no Jutsu"], "correct": 1, "hint": "Le permite crear cientos de copias físicas de sí mismo."}, {"id": 6, "question": "¿Qué villano interrumpió los Exámenes Chūnin y asesinó al Tercer Hokage (Hiruzen Sarutobi)?", "options": ["Itachi Uchiha", "Orochimaru", "Pain", "Madara Uchiha"], "correct": 1, "hint": "Uno de los legendarios Sannin, obsesionado con la inmortalidad y las serpientes."}, {"id": 7, "question": "¿Quién le enseñó a Naruto la técnica del Rasengan?", "options": ["Kakashi Hatake", "Jiraiya", "Tsunade", "Ebisu"], "correct": 1, "hint": "Uno de los tres Sannin, apodado el 'Sabio Sapo' (Ero-sennin)."}, {"id": 8, "question": "¿Qué miembro del clan Uchiha exterminó a casi todo su clan en una sola noche?", "options": ["Sasuke Uchiha", "Madara Uchiha", "Itachi Uchiha", "Obito Uchiha"], "correct": 2, "hint": "Era el hermano mayor de Sasuke."}, {"id": 9, "question": "¿Cómo se llama la organización de ninjas renegados que buscaba capturar a todos los Jinchūriki?", "options": ["ANBU", "Akatsuki", "Taka", "Root (Raíz)"], "correct": 1, "hint": "Sus miembros vestían capas negras con nubes rojas."}, {"id": 10, "question": "¿Cuál es el nombre del líder manifiesto de Akatsuki que atacó y destruyó Konoha con el Shinra Tensei?", "options": ["Sasori", "Deidara", "Pain / Nagato", "Kakuzu"], "correct": 2, "hint": "Poseía el Rinnegan y controlaba los Seis Caminos del Dolor."}, {"id": 11, "question": "¿Qué técnica médica legendaria utiliza Tsunade Senju para regenerar sus heridas al instante?", "options": ["Byakugou no Jutsu (Sello Fuerza de Cien)", "Rasengan", "Shiyō Senjutsu", "Kage Bunshin"], "correct": 0, "hint": "Libera una enorme cantidad de chakra almacenado en el sello de su frente."}, {"id": 12, "question": "¿En qué modo entra Naruto tras entrenar en el Monte Myōboku con los sapos?", "options": ["Modo Chakra del Kyubi", "Modo Sabio (Senjutsu)", "Modo Barion", "Modo Asura"], "correct": 1, "hint": "Consiste en armonizar la energía natural con el propio chakra, cambiando sus ojos a forma de sapo."}, {"id": 13, "question": "¿Quién fue el verdadero cerebro detrás del plan del 'Ojo de la Luna' (Tsukuyomi Infinito) haciendo creer que era Madara?", "options": ["Kabuto Yakushi", "Zetsu Negro / Kaguya Ōtsutsuki", "Danō Shimura", "Kisame Hoshigaki"], "correct": 1, "hint": "Una entidad oscura creada a partir de la voluntad de la Madre del Chakra."}, {"id": 14, "question": "¿Quién resucitó al ejército de ninjas legendarios durante la Cuarta Gran Guerra Ninja usando el Edo Tensei?", "options": ["Orochimaru", "Kabuto Yakushi", "Obito Uchiha", "Zetsu Blanco"], "correct": 1, "hint": "El antiguo asistente y discípulo de Orochimaru que dominó la técnica del dragón blanco."}, {"id": 15, "question": "¿En qué valle tuvo lugar la pelea final entre Naruto Uzumaki y Sasuke Uchiha?", "options": ["El Valle del Fin", "El Valle de las Nubes", "El Valle de los Muertos", "El Bosque de la Muerte"], "correct": 0, "hint": "Donde se encuentran las gigantescas estatuas esculpidas de Hashirama Senju y Madara Uchiha."}, {"id": 16, "question": "¿Qué importante parte del cuerpo perdieron Naruto y Sasuke tras su enfrentamiento decisivo en Shippuden?", "options": ["Una pierna", "Su ojo izquierdo", "Su brazo dominante / izquierdo-derecho", "Su voz"], "correct": 2, "hint": "Naruto más tarde recibió una prótesis hecha con células de Hashirama."}, {"id": 17, "question": "¿Quién se convirtió en el Sexto Hokage tras la Cuarta Gran Guerra Shinobi?", "options": ["Naruto Uzumaki", "Kakashi Hatake", "Shikamaru Nara", "Sakura Haruno"], "correct": 1, "hint": "El maestro del Equipo 7 que perdió el Sharingan durante la guerra."}, {"id": 18, "question": "¿Cuál era la verdadera identidad de Tobi dentro de Akatsuki?", "options": ["Shisui Uchiha", "Izuna Uchiha", "Obito Uchiha", "Fugaku Uchiha"], "correct": 2, "hint": "Antiguo compañero de equipo de Kakashi y Rin que se creía muerto tras una misión en el puente Kannabi."}, {"id": 19, "question": "¿Qué objeto o accesorio le regaló Tsunade a Naruto tras ganar la apuesta sobre dominar el Rasengan?", "options": ["Una espada ninja", "El collar del Primer Hokage", "Un pergamino prohibido", "Su banda de la aldea"], "correct": 1, "hint": "Un valioso amuleto verde cristalino que perteneció a Hashirama Senju."}, {"id": 20, "question": "¿Qué equipo ninja estaba integrado por Shikamaru, Chōji e Ino?", "options": ["Equipo 7", "Equipo 8", "Equipo 10 (Ino-Shika-Chō)", "Equipo Guy"], "correct": 2, "hint": "Un trío legendario de clanes dirigidos originalmente por Asuma Sarutobi."}, {"id": 21, "question": "¿Cómo se llamaba la espada demoníaca que portaba Kisame Hoshigaki?", "options": ["Kubikiribōchō", "Samehada", "Kiba", "Hiramekarei"], "correct": 1, "hint": "Una espada con escamas que devora el chakra de sus oponentes."}, {"id": 22, "question": "¿Qué maestro sacrificó su vida entrenando a Rock Lee y abriendo la Octava Puerta de la Muerte contra Madara Uchiha?", "options": ["Kakashi Hatake", "Might Guy", "Asuma Sarutobi", "Jiraiya"], "correct": 1, "hint": "La 'Bestia Verde de Konoha' y rival eterno de Kakashi."}, {"id": 23, "question": "¿Cuál es el verdadero motivo por el cual Itachi Uchiha eliminó a su propio clan?", "options": ["Por deseo de poder personal", "Para proteger a la aldea de un golpe de estado y salvar a Sasuke", "Siguiendo órdenes de Akatsuki", "Por estar bajo un genjutsu de Madara"], "correct": 1, "hint": "Actuó en secreto bajo las órdenes de los altos mandos de Konoha para evitar una guerra civil."}, {"id": 24, "question": "¿Qué técnica suprema de espacio-tiempo usaba Minato Namikaze para teletransportarse a marcas de kunai especiales?", "options": ["Hiraishin no Jutsu (Dios del Trueno Volador)", "Shunshin no Jutsu", "Kamui", "Kawarimi no Jutsu"], "correct": 0, "hint": "Le valió el apodo de Rayo Amarillo."}, {"id": 25, "question": "¿Cómo se llama el espíritu sellado en Gaara durante su infancia en la Aldea de la Arena?", "options": ["Kokuō", "Shukaku (Una Cola)", "Saiken", "Chōmei"], "correct": 1, "hint": "Un mapache tanuki gigante de arena y chakra."}, {"id": 26, "question": "¿Quién fue la primera persona en la historia en utilizar y transmitir el chakra, conocida como la Diosa Conejo?", "options": ["Mito Uzumaki", "Kaguya Ōtsutsuki", "Kushina Uzumaki", "Rin Nohara"], "correct": 1, "hint": "Comió el fruto del Árbol del Chakra y es la madre del Sabio de los Seis Caminos."}, {"id": 27, "question": "¿Qué ninja médico fue el maestro de Sakura Haruno en Shippuden?", "options": ["Shizune", "Tsunade Senju", "Kurenai Yūhi", "Chiyo"], "correct": 1, "hint": "La Quinta Hokage y nieta del Primer Hokage."}, {"id": 28, "question": "¿Cómo se llama la técnica prohibida con la que el Tercer Hokage intentó sellar a Orochimaru?", "options": ["Shiki Fūjin (Sello Consumidor del Demonio de la Muerte)", "Edo Tensei", "Chibaku Tensei", "Izanagi"], "correct": 0, "hint": "Invoca a la Parca (Shinigami) a cambio del alma del usuario."}, {"id": 29, "question": "¿Qué personaje era el mentor y líder del Equipo 8 (Hinata, Kiba y Shino)?", "options": ["Anko Mitarashi", "Kurenai Yūhi", "Shizune", "Temari"], "correct": 1, "hint": "Una especialista en Genjutsu que más tarde tuvo un hijo con Asuma Sarutobi."}, {"id": 30, "question": "¿Quién se convierte finalmente en el Séptimo Hokage de Konoha?", "options": ["Sasuke Uchiha", "Konohamaru Sarutobi", "Naruto Uzumaki", "Shikamaru Nara"], "correct": 2, "hint": "Cumple su sueño de la infancia al final de la historia."}]
+      },
+      "personajes.json": {
+        "title": "Personajes y Habilidades Ninja",
+        "description": "Preguntas sobre ninjutsu, Kekkei Genkai, Mangekyō Sharingan, Jinchūrikis y batallas.",
+        "questions": [{"id": 1, "question": "¿Qué Kekkei Genkai óptico posee el clan Uchiha?", "options": ["Byakugan", "Sharingan", "Rinnegan", "Tenseigan"], "correct": 1, "hint": "Ojo rojo capaz de copiar jutsus y ver el flujo de chakra."}, {"id": 2, "question": "¿Qué Kekkei Genkai óptico posee el clan Hyūga?", "options": ["Sharingan", "Byakugan", "Rinnegan", "Ketsuryūgan"], "correct": 1, "hint": "Permite una visión de casi 360 grados y ver los puntos de chakra (tenketsu)."}, {"id": 3, "question": "¿Cómo se llama la versión avanzada del Sharingan que se despierta tras sufrir un trauma de pérdida profundo?", "options": ["Mangekyō Sharingan", "Rinne Sharingan", "Jōgan", "Ketsuryūgan"], "correct": 0, "hint": "Otorga habilidades únicas como Amaterasu, Tsukuyomi o Kamui."}, {"id": 4, "question": "¿Cuál es la técnica defensiva/ofensiva máxima de chakra humanoide que pueden invocar los portadores del Mangekyō Sharingan?", "options": ["Susanoo", "Izanami", "Shinra Tensei", "Kotoamatsukami"], "correct": 0, "hint": "Un gigante espiritual de chakra que envuelve al usuario como una armadura."}, {"id": 5, "question": "¿Qué elemento de chakra (Naturaleza) es la afinidad principal de Naruto Uzumaki?", "options": ["Katon (Fuego)", "Raiton (Rayo)", "Fūton (Viento)", "Doton (Tierra)"], "correct": 2, "hint": "La naturaleza que corta y potencia las técnicas de corte, como el Rasenshuriken."}, {"id": 6, "question": "¿Qué técnica de llamas negras inextinguibles es ejecutada por el Mangekyō Sharingan de Itachi y Sasuke?", "options": ["Katon: Gōka Mekkyaku", "Amaterasu", "Kagutsuchi", "Kirin"], "correct": 1, "hint": "Llamas del infierno que arden durante siete días y siete noches."}, {"id": 7, "question": "¿Cómo se llama la técnica original creada por Kakashi Hatake que transmite electricidad a la mano?", "options": ["Rasengan", "Chidori (o Raikiri)", "Kirin", "Lanza de Chidori"], "correct": 1, "hint": "Su nombre alude al sonido de mil pájaros cantando."}, {"id": 8, "question": "¿Qué Jinchūriki es el jientérprete de rap y contenedor del Hachibi (8 Colas)?", "options": ["Yugito Nii", "Killer Bee", "Yagura", "Utakata"], "correct": 1, "hint": "Hermano adoptivo del Cuarto Raikage que lucha con 8 espadas."}, {"id": 9, "question": "¿Qué marioneta o técnica distintiva usa Kankurō de la Aldea de la Arena?", "options": ["Karasu, Kuroari y Sanshōuo", "Hiruko", "El Tercer Kazekage", "100 Marionetas de Sasori"], "correct": 0, "hint": "Marionetas mecánicas con veneno y trampas."}, {"id": 10, "question": "¿Qué marionetista de Akatsuki convirtió su propio cuerpo en una marioneta humana?", "options": ["Deidara", "Sasori", "Hidan", "Kakuzu"], "correct": 1, "hint": "El nieto de la anciana Chiyo de la Arena."}, {"id": 11, "question": "¿Cuál es la habilidad secreta del clan Nara usada por Shikamaru?", "options": ["Imitación de Sombras (Kage Mane no Jutsu)", "Agrandamiento de cuerpo", "Conversión de mente/cuerpo", "Técnica de la mariposa"], "correct": 0, "hint": "Permite controlar los movimientos del oponente al conectar la sombra."}, {"id": 12, "question": "¿Qué clan usa insectos (Kikaichū) que viven dentro de sus cuerpos en simbiosis?", "options": ["Clan Inuzuka", "Clan Aburame", "Clan Akimichi", "Clan Yamanaka"], "correct": 1, "hint": "El clan al que pertenece Shino."}, {"id": 13, "question": "¿Cómo se llama el perro ninja compañero de Kiba Inuzuka?", "options": ["Pakkun", "Akamaru", "Kuromaru", "Nin-ken"], "correct": 1, "hint": "Su pelaje se vuelve rojo cuando come una píldora de soldado."}, {"id": 14, "question": "¿Qué ninja no tiene la capacidad de usar Ninjutsu ni Genjutsu y basa todo su poder en el Taijutsu?", "options": ["Neji Hyūga", "Rock Lee", "Chōji Akimichi", "Shino Aburame"], "correct": 1, "hint": "Alumno de Might Guy que viste malla verde y cejas pobladas."}, {"id": 15, "question": "¿Qué Genjutsu supremo del clan Uchiha permite reescribir el destino a costa de perder la vista de un Sharingan?", "options": ["Izanagi", "Izanami", "Tsukuyomi", "Kotoamatsukami"], "correct": 0, "hint": "Danza entre la realidad y la ilusión para evitar la muerte."}, {"id": 16, "question": "¿Qué Genjutsu fue creado para contrarrestar el Izanagi atrapando al oponente en un bucle temporal infinito?", "options": ["Tsukuyomi", "Izanami", "Kotoamatsukami", "Mugen Tsukuyomi"], "correct": 1, "hint": "Exige repetir una secuencia de sensaciones físicas para obligar a aceptar la realidad."}, {"id": 17, "question": "¿Qué técnica de ilusión legendaria del Mangekyō de Shisui Uchiha permite controlar la mente de alguien sin que se dé cuenta?", "options": ["Tsukuyomi", "Kotoamatsukami", "Izanami", "Kamui"], "correct": 1, "hint": "El Genjutsu de mayor nivel considerado indetectable."}, {"id": 18, "question": "¿Qué ninja inmortal de Akatsuki pertenecía a la religión del dios Jashin?", "options": ["Kakuzu", "Hidan", "Deidara", "Zetsu"], "correct": 1, "hint": "Usaba una guadaña de tres hojas y realizaba un ritual de sangre con un estigma negro en el suelo."}, {"id": 19, "question": "¿Cuántos corazones tenía Kakuzu en su cuerpo gracias a sus máscaras de elementos?", "options": ["3", "4", "5", "9"], "correct": 2, "hint": "Robaba los corazones de otros ninjas para alargar su vida durante siglos."}, {"id": 20, "question": "¿De qué elemento está hecha el arte explosivo de Deidara?", "options": ["Arcilla mezclada con chakra de la boca de sus manos (Bakuton)", "Fuego directo", "Rayo condensado", "Pólvora de hierro"], "correct": 0, "hint": "Gritaba '¡El arte es una explosión!' (Katsu!)."}, {"id": 21, "question": "¿Qué espada legendaria de los Siete Espadachines de la Niebla pertenecía a Zabuza Momochi?", "options": ["Kubikiribōchō (Desmembradora)", "Samehada", "Hiramekarei", "Kiba"], "correct": 0, "hint": "Una espada gigante con forma de cuchillo de carnicero que se regenera con el hierro de la sangre."}, {"id": 22, "question": "¿Qué habilidad especial tiene Karin Uzumaki para sanar a sus aliados?", "options": ["Morder su piel para absorber su chakra curativo", "Luz divina del sello", "Jutsu de palma mística", "Transfusión de sangre"], "correct": 0, "hint": "Deja marcas de mordiscos en sus brazos y cuerpo."}, {"id": 23, "question": "¿Qué invocación personal utiliza Sasuke Uchiha además de las serpientes?", "options": ["Sapo (Gamakichi)", "Halcón (Taka)", "Babosa (Katsuyu)", "Perro (Pakkun)"], "correct": 1, "hint": "Un ave de presa majestuosa que inspiró el nombre de su equipo."}, {"id": 24, "question": "¿Cómo se llama la babosa gigante invocada por Tsunade y Sakura?", "options": ["Gamabunta", "Manda", "Katsuyu", "Enma"], "correct": 2, "hint": "Puede dividirse en miles de pequeñas babosas para sanar a toda una aldea."}, {"id": 25, "question": "¿Qué transformación física obtuvo Sasuke tras ser mordido por Orochimaru durante los Exámenes Chūnin?", "options": ["Modo Sabio", "Sello Maldito (Juin)", "Bijuu Mode", "Armadura de Rayo"], "correct": 1, "hint": "Le otorgaba marcas de fuego y posteriormente alas de mano en el Nivel 2."}, {"id": 26, "question": "¿Qué estilo de combate utiliza Neji Hyūga para bloquear los puntos de chakra con sus palmas?", "options": ["Gōken (Puño Duro)", "Jūken (Puño Suave)", "Kawazoken (Puño de Sapo)", "Taijutsu de la Borrachera"], "correct": 1, "hint": "Un estilo elegante que ataca los órganos internos a través del sistema circulatorio de chakra."}, {"id": 27, "question": "¿Qué técnica invoca una barrera circular absoluta de 360 grados ejecutada por Neji Hyūga?", "options": ["Eight Trigrams Sixty-Four Palms", "Hakkeshō Kaiten (Rotación Celestial de los Ocho Trigramas)", "Chidori Stream", "Shinra Tensei"], "correct": 1, "hint": "Expulsa chakra por todos los tenketsu de su cuerpo mientras gira rápidamente."}, {"id": 28, "question": "¿Quién fue el maestro de Taijutsu de Kakashi, Asuma, Kurenai y Guy cuando eran niños?", "options": ["Sakumo Hatake", "Might Duy (Padre de Guy)", "Hiruzen Sarutobi", "Danō Shimura"], "correct": 1, "hint": "Conocido como el 'Eterno Genin' que dominó las Ocho Puertas."}, {"id": 29, "question": "¿Qué transformación única alcanza Naruto combinando el Rasengan con la naturaleza del viento?", "options": ["Rasenshuriken", "Oodama Rasengan", "Chō Oodama Rasengan", "Rasenrenjan"], "correct": 0, "hint": "Crea una shuriken gigante de viento que corta a nivel celular."}, {"id": 30, "question": "¿Qué ojo posee Kakashi Hatake en su cuenca izquierda durante la mayor parte de la serie?", "options": ["Byakugan", "Sharingan de Itachi", "Sharingan de Obito", "Rinnegan de Nagato"], "correct": 2, "hint": "Se lo regaló su amigo moribundo como regalo por convertirse en Jōnin."}]
+      },
+      "curiosidades.json": {
+        "title": "Lore, Curiosidades y Exámenes Chūnin",
+        "description": "Secretos de las aldeas, los clanes, la comida favorita de Naruto y detalles de trasfondo.",
+        "questions": [{"id": 1, "question": "¿Cuál es la comida favorita absoluta de Naruto Uzumaki?", "options": ["Dango", "Ramen de Ichiraku", "Yakiniku", "Onigiri"], "correct": 1, "hint": "Un plato de fideos calientes en su restaurante local preferido."}, {"id": 2, "question": "¿Cómo se llama el dueño y chef del puesto de Ramen Ichiraku?", "options": ["Teuchi", "Ayame", "Tazuna", "Genzō"], "correct": 0, "hint": "Un amable hombre que siempre trató a Naruto con cariño desde niño."}, {"id": 3, "question": "¿Cuál es la primera prueba escrita de los Exámenes Chūnin organizada por Ibiki Morino?", "options": ["Un combate individual", "Un examen con preguntas imposibles pensado para poner a prueba la capacidad de copiar sin ser descubierto", "Una carrera en el bosque", "Una prueba de supervivencia"], "correct": 1, "hint": "La verdadera prueba evaluaba el sigilo para obtener información en situaciones límite."}, {"id": 4, "question": "¿Dónde tuvo lugar la segunda fase de los Exámenes Chūnin donde debían conseguir los pergaminos del Cielo y la Tierra?", "options": ["En el Valle del Fin", "En el Bosque de la Muerte", "En la Torre de la Arena", "En el Desierto de la Extinción"], "correct": 1, "hint": "Un territorio salvaje lleno de bestias gigantes y ninjas enemigos."}, {"id": 5, "question": "¿Cómo se llama el padre de Kakashi Hatake, conocido como el Colmillo Blanco de Konoha?", "options": ["Sakumo Hatake", "Torune Hatake", "Kenji Hatake", "Daisuke Hatake"], "correct": 0, "hint": "Se quitó la vida tras ser deshonrado por salvar a sus compañeros antes que la misión."}, {"id": 6, "question": "¿Qué tres ninjas legendarios son conocidos como los Sannin de Konoha?", "options": ["Kakashi, Guy y Asuma", "Jiraiya, Tsunade y Orochimaru", "Minato, Kushina y Fugaku", "Hashirama, Tobirama y Madara"], "correct": 1, "hint": "Entrenados por el Tercer Hokage y nombrados por Hanzō de la Salamandra."}, {"id": 7, "question": "¿Quién fue el Primer Hokage y fundador de la Aldea Oculta de la Hoja junto con Madara Uchiha?", "options": ["Tobirama Senju", "Hashirama Senju", "Hiruzen Sarutobi", "Minato Namikaze"], "correct": 1, "hint": "Poseedor del legendario Kekkei Genkai del Elemento Madera (Mokuton)."}, {"id": 8, "question": "¿Qué hermano menor del Primer Hokage fue el Segundo Hokage y creador del Kage Bunshin y Edo Tensei?", "options": ["Tobirama Senju", "Hashirama Senju", "Itama Senju", "Kawarama Senju"], "correct": 0, "hint": "Un Ninja especialista en Elemento Agua (Suiton) de carácter pragmático."}, {"id": 9, "question": "¿Cómo se llamaba el equipo de constructores del puente en el País de las Olas que defendió el Equipo 7 en su primera misión Rango S?", "options": ["Inari y Tazuna", "Gatō y Zabuza", "Genzō y Haku", "Kaiza y Kōta"], "correct": 0, "hint": "El anciano maestro carpintero y su nieto."}, {"id": 10, "question": "¿Cuál era la verdadera naturaleza del compañero de Zabuza, Haku?", "options": ["Poseía el Kekkei Genkai del Hielo (Hyōton)", "Era una marioneta", "Era un espía de Akatsuki", "Era un demonio sin forma física"], "correct": 0, "hint": "Utilizaba los Espejos de Hielo Demoníacos."}, {"id": 11, "question": "¿Qué significado tienen los caracteres kanji bordados en la espalda de la capa de Naruto como Hokage?", "options": ["Séptimo Hokage (Nanadaime Hokage)", "El más fuerte de la hoja", "Dios Ninja", "Héroe del Mundo"], "correct": 0, "hint": "Sétima generación de líderes de Konohagakure."}, {"id": 12, "question": "¿Cómo se llama el país o aldea oculta gobernada por el Kazekage?", "options": ["Sunagakure (Aldea Oculta de la Arena)", "Kirigakure (Aldea Oculta de la Niebla)", "Kumogakure (Aldea Oculta del Rayo)", "Iwagakure (Aldea Oculta de la Roca)"], "correct": 0, "hint": "Ubicada en el País del Viento."}, {"id": 13, "question": "¿Quién fue el instructor del Equipo Guy compuesto por Neji, Tenten y Rock Lee?", "options": ["Might Guy", "Kakashi Hatake", "Asuma Sarutobi", "Yamato"], "correct": 0, "hint": "El ninja apasionado de las cejas pobladas y el traje verde de entrenamiento."}, {"id": 14, "question": "¿Qué libro de novelas eróticas escrito por Jiraiya leía constantemente Kakashi?", "options": ["Icha Icha Paradise (Make-Out Paradise)", "Tales of a Gutsy Ninja", "Tales of Shinobi", "Shinobi Love"], "correct": 0, "hint": "Serie de libros románticos muy popular entre adultos en el mundo ninja."}, {"id": 15, "question": "¿Qué regalo especial le dio Hinata Hyūga a Naruto durante la película 'The Last'?", "options": ["Una bufanda roja tejida a mano", "Un protector de frente especial", "Un amuleto de cristal", "Un rollo de ramen"], "correct": 0, "hint": "Un objeto de abrigo tejido con mucho cariño para el invierno."}, {"id": 16, "question": "¿Cómo se llama la hija de Naruto y Hinata?", "options": ["Himawari Uzumaki", "Sarada Uchiha", "Chocho Akimichi", "Hanabi Hyūga"], "correct": 0, "hint": "Su nombre significa 'girasol' en japonés."}, {"id": 17, "question": "¿Cómo se llama el hijo mayor de Naruto y Hinata?", "options": ["Boruto Uzumaki", "Kawaki", "Mitsuki", "Shikadai"], "correct": 0, "hint": "El protagonista de la secuela 'Next Generations'."}, {"id": 18, "question": "¿Qué técnica especial de invocar sapos utilizaba Jiraiya para atrapar a sus enemigos en el estómago de un sapo gigante de montaña?", "options": ["Gamaguchi Shibari (Atadura del Estómago de Sapo)", "Katsuyu Daibunretsu", "Kuchiyose: Yatai Kuzushi no Jutsu", "Doton: Yomi no Numa"], "correct": 0, "hint": "Transforma el entorno en las paredes del sistema digestivo del sapo Myōboku."}, {"id": 19, "question": "¿Quién era la madre de Naruto Uzumaki y antigua Jinchūriki del Nueve Colas?", "options": ["Kushina Uzumaki", "Mito Uzumaki", "Mikoto Uchiha", "Rin Nohara"], "correct": 0, "hint": "Conocida como el Habanero Sangriento de Konoha por su pelo rojo y carácter temperamental."}, {"id": 20, "question": "¿De qué clan proviene la extraordinaria cantidad de chakra y longevidad de Naruto?", "options": ["Clan Senju", "Clan Uzumaki", "Clan Namikaze", "Clan Hyūga"], "correct": 1, "hint": "Famosos por sus pelos rojos, técnicas de sellado (Fūinjutsu) y la aldea de Uzushio."}, {"id": 21, "question": "¿Qué animal de invocación usa Sasuke durante su entrenamiento y combates posteriores con Orochimaru?", "options": ["Serpientes (Manda/Aoda)", "Sapos", "Perros", "Gatos"], "correct": 0, "hint": "Reptiles gigantes de la cueva Ryūchi."}, {"id": 22, "question": "¿Cuál es la frase célebre o muletilla que repite continuamente Naruto al hablar en japonés?", "options": ["¡Dattebayo! (¡Vaya que sí! / Believe it!)", "¡Usuratonkachi!", "¡Dattebane!", "¡Mondo de gozaru!"], "correct": 0, "hint": "Heredó esta muletilla modificada de su madre Kushina."}, {"id": 23, "question": "¿Cómo se llama el veneno que usaba Sasori y que Sakura logró neutralizar creando un antídoto?", "options": ["Veneno de escorpión de metal pesado", "Veneno de serpiente negra", "Toxina de flor de loto", "Gas durmiente"], "correct": 0, "hint": "Un veneno orgánico complejo que destruye las células en 3 días."}, {"id": 24, "question": "¿Quién fue el samurai líder del País del Hierro que actuó como mediador en la Cumbre de los Cinco Kages?", "options": ["Mifune", "Hanzo", "Tazuna", "Chiyo"], "correct": 0, "hint": "Un maestro del Kenjutsu capaz de cortar el chakra de las manos antes de sellar."}, {"id": 25, "question": "¿Qué Kage de la Aldea de la Roca (Iwagakure) poseía el Kekkei Tōta del Elemento Polvo (Jinton)?", "options": ["Ōnoki (Tercer Tsuchikage)", "A (Cuarto Raikage)", "Mei Terumī (Mizukage)", "Gaara"], "correct": 0, "hint": "Un anciano muy bajito con dolores de espalda."}, {"id": 26, "question": "¿Qué Mizukage de la Aldea de la Niebla poseía dos Kekkei Genkai (Lava y Vapor)?", "options": ["Mei Terumī", "Yagura Karatachi", "Zabuza", "Suigetsu"], "correct": 0, "hint": "Una bella kunoichi obsesionada con encontrar pareja."}, {"id": 27, "question": "¿Cómo se llama el grupo de ninjas de élite directamente bajo el mando del Hokage para misiones de asesinato e infiltración?", "options": ["ANBU", "Akatsuki", "Siete Espadachines", "Guardianes Doce"], "correct": 0, "hint": "Visten túnicas blancas y máscaras de animales de porcelana."}, {"id": 28, "question": "¿Quién era el líder de la división secreta 'Raíz' (Root) dentro de los ANBU?", "options": ["Danō Shimura", "Homura Mitokado", "Koharu Utatane", "Sai"], "correct": 0, "hint": "Un anciano despiadado con un brazo lleno de Sharingans implantados."}, {"id": 29, "question": "¿Qué personaje del Equipo Kakashi utilizaba técnicas de tinta para dar vida a sus dibujos?", "options": ["Sai", "Yamato", "Chōjūrō", "Darui"], "correct": 0, "hint": "Un ninja creado en Raíz que sustituyó a Sasuke en Shippuden."}, {"id": 30, "question": "¿Qué usuario del Mokuton (Elemento Madera) fue implantado con células de Hashirama para controlar el chakra del Nueve Colas?", "options": ["Yamato (Tenzo)", "Sai", "Danō", "Kabuto"], "correct": 0, "hint": "El ninja ANBU que tomó el mando temporal del Equipo 7."}]
+      }
+    };
+
+    let currentQuizData = null;
+    let selectedQuestions = [];
+    let currentQuestionIndex = 0;
+    let score = 0;
+    let selectedOptionIndex = null;
+    let isAnswered = false;
+    let activeQuizKey = '';
+
+    const QUESTIONS_PER_QUIZ = 10;
+
+    const quizzesList = [
+      { file: 'historia.json', title: 'Historia y Arcos', desc: 'Eventos principales desde la infancia de Naruto hasta la Cuarta Guerra Ninja.' },
+      { file: 'personajes.json', title: 'Personajes y Jutsus', desc: 'Kekkei Genkai, Mangekyō Sharingan, invocaciones y técnicas.' },
+      { file: 'curiosidades.json', title: 'Lore y Exámenes Chūnin', desc: 'Ramen Ichiraku, clanes, detalles de trasfondo y secretos.' }
+    ];
+
+    const screenMenu = document.getElementById('screen-menu');
+    const screenQuiz = document.getElementById('screen-quiz');
+    const screenResults = document.getElementById('screen-results');
+
+    const quizListContainer = document.getElementById('quiz-list');
+    const rankingContainer = document.getElementById('ranking-container');
+
+    const questionCounter = document.getElementById('question-counter');
+    const scoreCounter = document.getElementById('score-counter');
+    const progressBar = document.getElementById('progress-bar');
+    const questionText = document.getElementById('question-text');
+    const optionsContainer = document.getElementById('options-container');
+    const hintBox = document.getElementById('hint-box');
+    const hintText = document.getElementById('hint-text');
+
+    const btnAction = document.getElementById('btn-action');
+    const btnHint = document.getElementById('btn-hint');
+    const btnAbort = document.getElementById('btn-abort');
+
+    const resultMessage = document.getElementById('result-message');
+    const finalScore = document.getElementById('final-score');
+    const maxScore = document.getElementById('max-score');
+    const playerNameInput = document.getElementById('player-name');
+    const btnSaveScore = document.getElementById('btn-save-score');
+    const btnRestart = document.getElementById('btn-restart');
+    const btnHome = document.getElementById('btn-home');
+
+    document.addEventListener('DOMContentLoaded', () => {
+      renderQuizMenu();
+      renderRanking();
+      setupEventListeners();
+    });
+
+    function renderQuizMenu() {
+      quizListContainer.innerHTML = '';
+      quizzesList.forEach(quiz => {
+        const card = document.createElement('div');
+        card.className = 'quiz-card';
+        card.innerHTML = `
+          <div>
+            <h4>${quiz.title}</h4>
+            <p>${quiz.desc}</p>
+          </div>
+          <button class="btn-start">Iniciar Quiz</button>
+        `;
+        card.addEventListener('click', () => startQuiz(quiz.file));
+        quizListContainer.appendChild(card);
+      });
+    }
+
+    function startQuiz(quizKey) {
+      activeQuizKey = quizKey;
+      currentQuizData = quizzesData[quizKey];
+
+      selectedQuestions = shuffleArray([...currentQuizData.questions]).slice(0, QUESTIONS_PER_QUIZ);
+      currentQuestionIndex = 0;
+      score = 0;
+
+      switchScreen(screenQuiz);
+      loadQuestion();
+    }
+
+    function loadQuestion() {
+      isAnswered = false;
+      selectedOptionIndex = null;
+
+      const currentQ = selectedQuestions[currentQuestionIndex];
+
+      questionCounter.textContent = `Pregunta ${currentQuestionIndex + 1} / ${selectedQuestions.length}`;
+      scoreCounter.innerHTML = `⭐ Puntos: ${score}`;
+      progressBar.style.width = `${(currentQuestionIndex / selectedQuestions.length) * 100}%`;
+
+      questionText.textContent = `${currentQuestionIndex + 1}. ${currentQ.question}`;
+      
+      hintBox.style.display = 'none';
+      btnHint.disabled = !currentQ.hint;
+
+      btnAction.textContent = 'Confirmar Respuesta';
+      btnAction.disabled = true;
+
+      optionsContainer.innerHTML = '';
+      currentQ.options.forEach((optText, index) => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.innerHTML = `<span>${optText}</span> ⚪`;
+        btn.addEventListener('click', () => selectOption(index));
+        optionsContainer.appendChild(btn);
+      });
+    }
+
+    function selectOption(index) {
+      if (isAnswered) return;
+      selectedOptionIndex = index;
+      const buttons = optionsContainer.querySelectorAll('.option-btn');
+
+      buttons.forEach((btn, idx) => {
+        if (idx === index) {
+          btn.classList.add('selected');
+          btn.innerHTML = `<span>${btn.querySelector('span').textContent}</span> 🔘`;
+        } else {
+          btn.classList.remove('selected');
+          btn.innerHTML = `<span>${btn.querySelector('span').textContent}</span> ⚪`;
+        }
+      });
+
+      btnAction.disabled = false;
+    }
+
+    function handleAction() {
+      if (!isAnswered) {
+        checkAnswer();
+      } else {
+        currentQuestionIndex++;
+        if (currentQuestionIndex < selectedQuestions.length) {
+          loadQuestion();
+        } else {
+          showResults();
+        }
+      }
+    }
+
+    function checkAnswer() {
+      isAnswered = true;
+      const currentQ = selectedQuestions[currentQuestionIndex];
+      const buttons = optionsContainer.querySelectorAll('.option-btn');
+
+      buttons.forEach((btn, idx) => {
+        btn.classList.add('disabled');
+        const text = btn.querySelector('span').textContent;
+        if (idx === currentQ.correct) {
+          btn.classList.add('correct');
+          btn.innerHTML = `<span>${text}</span> ✅`;
+        }
+        if (idx === selectedOptionIndex && idx !== currentQ.correct) {
+          btn.classList.add('incorrect');
+          btn.innerHTML = `<span>${text}</span> ❌`;
+        }
+      });
+
+      if (selectedOptionIndex === currentQ.correct) {
+        score++;
+        scoreCounter.innerHTML = `⭐ Puntos: ${score}`;
+      }
+
+      btnAction.textContent = currentQuestionIndex === selectedQuestions.length - 1 ? 'Ver Resultados' : 'Siguiente Pregunta';
+      btnAction.disabled = false;
+    }
+
+    function toggleHint() {
+      const currentQ = selectedQuestions[currentQuestionIndex];
+      if (currentQ.hint) {
+        hintText.textContent = currentQ.hint;
+        hintBox.style.display = 'block';
+        btnHint.disabled = true;
+      }
+    }
+
+    function showResults() {
+      progressBar.style.width = '100%';
+      switchScreen(screenResults);
+
+      finalScore.textContent = score;
+      maxScore.textContent = selectedQuestions.length;
+
+      const percentage = (score / selectedQuestions.length) * 100;
+      if (percentage === 100) {
+        resultMessage.textContent = '¡Impresionante! ¡Eres un auténtico Hokage de Konoha!';
+      } else if (percentage >= 70) {
+        resultMessage.textContent = '¡Excelente nivel! Has alcanzado el rango de Jōnin.';
+      } else if (percentage >= 50) {
+        resultMessage.textContent = '¡Buen esfuerzo! Has superado el examen Chūnin.';
+      } else {
+        resultMessage.textContent = 'Aún te queda entrenamiento en la Academia Ninja.';
+      }
+
+      playerNameInput.value = '';
+      btnSaveScore.disabled = false;
+      btnSaveScore.textContent = 'Guardar Registro';
+    }
+
+    function saveScore() {
+      const name = playerNameInput.value.trim() || 'Shinobi Anónimo';
+      const ranking = JSON.parse(localStorage.getItem('naruto_quiz_ranking')) || [];
+
+      const newEntry = {
+        name: name,
+        score: score,
+        max: selectedQuestions.length,
+        quizTitle: currentQuizData.title,
+        date: new Date().toLocaleDateString('es-ES')
+      };
+
+      ranking.push(newEntry);
+      ranking.sort((a, b) => b.score - a.score);
+      localStorage.setItem('naruto_quiz_ranking', JSON.stringify(ranking.slice(0, 10)));
+
+      btnSaveScore.disabled = true;
+      btnSaveScore.textContent = '¡Guardado!';
+      renderRanking();
+    }
+
+    function renderRanking() {
+      const ranking = JSON.parse(localStorage.getItem('naruto_quiz_ranking')) || [];
+
+      if (ranking.length === 0) {
+        rankingContainer.innerHTML = '<p class="empty-ranking">Aún no hay puntuaciones registradas. ¡Sé el primero en jugar!</p>';
+        return;
+      }
+
+      let html = `
+        <table class="ranking-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Nombre Ninja</th>
+              <th>Prueba</th>
+              <th>Puntos</th>
+              <th>Fecha</th>
+            </tr>
+          </thead>
+          <tbody>
+      `;
+
+      ranking.forEach((entry, idx) => {
+        html += `
+          <tr>
+            <td><strong>#${idx + 1}</strong></td>
+            <td>${escapeHtml(entry.name)}</td>
+            <td><small>${escapeHtml(entry.quizTitle)}</small></td>
+            <td><strong>${entry.score} / ${entry.max}</strong></td>
+            <td><small>${entry.date}</small></td>
+          </tr>
+        `;
+      });
+
+      html += '</tbody></table>';
+      rankingContainer.innerHTML = html;
+    }
+
+    function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    function switchScreen(screenToActive) {
+      document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+      screenToActive.classList.add('active');
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    function setupEventListeners() {
+      btnAction.addEventListener('click', handleAction);
+      btnHint.addEventListener('click', toggleHint);
+      btnAbort.addEventListener('click', () => switchScreen(screenMenu));
+      
+      btnSaveScore.addEventListener('click', saveScore);
+      btnRestart.addEventListener('click', () => startQuiz(activeQuizKey));
+      btnHome.addEventListener('click', () => {
+        renderRanking();
+        switchScreen(screenMenu);
+      });
+    }
+  </script>
 </body>
 </html>
