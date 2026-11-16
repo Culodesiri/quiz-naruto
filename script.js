@@ -9,9 +9,9 @@ let activeQuizFile = '';
 const QUESTIONS_PER_QUIZ = 10;
 
 const quizzesList = [
-  { file: 'historia.json', title: 'Historia y Arcos', desc: 'Eventos principales desde la infancia de Naruto hasta la Cuarta Guerra Ninja.' },
-  { file: 'personajes.json', title: 'Personajes y Jutsus', desc: 'Kekkei Genkai, Mangekyō Sharingan, invocaciones y técnicas.' },
-  { file: 'curiosidades.json', title: 'Lore y Exámenes Chūnin', desc: 'Ramen Ichiraku, clanes, detalles de trasfondo y secretos.' }
+  { file: 'historia.json', title: 'Lucia, Jason y Trama', desc: 'Protagonistas, prisión de Leonida, tráiler oficial y eventos principales.' },
+  { file: 'mapa.json', title: 'Leonida y Vice City', desc: 'Pantanos de Grassrivers, Leonida Keys, condados y lugares icónicos.' },
+  { file: 'mecanicas.json', title: 'Mecánicas y Secretos', desc: 'Policía realista, armas, coches, redes sociales y curiosidades.' }
 ];
 
 const screenMenu = document.getElementById('screen-menu');
@@ -67,20 +67,26 @@ function renderQuizMenu() {
 async function startQuiz(quizFile) {
   activeQuizFile = quizFile;
   try {
-    const response = await fetch(`data/${quizFile}`);
-    currentQuizData = await response.json();
-
-    selectedQuestions = shuffleArray([...currentQuizData.questions]).slice(0, QUESTIONS_PER_QUIZ);
-    
-    currentQuestionIndex = 0;
-    score = 0;
-
-    switchScreen(screenQuiz);
-    loadQuestion();
+    // Si se abre por http/https (Live Server), cargamos el JSON con fetch
+    if (window.location.protocol.startsWith('http')) {
+      const response = await fetch(`data/${quizFile}`);
+      if (!response.ok) throw new Error('Error HTTP al cargar JSON');
+      currentQuizData = await response.json();
+    } else {
+      // Si se abre directo desde el explorador (file://), usamos el respaldo local sin CORS
+      currentQuizData = QUIZZES_DATA[quizFile];
+    }
   } catch (error) {
-    console.error('Error al cargar el cuestionario:', error);
-    alert('No se pudo cargar el cuestionario. Asegúrate de abrir la página con Live Server.');
+    // Fallback automático si fetch falla por cualquier motivo
+    currentQuizData = QUIZZES_DATA[quizFile];
   }
+
+  selectedQuestions = shuffleArray([...currentQuizData.questions]).slice(0, QUESTIONS_PER_QUIZ);
+  currentQuestionIndex = 0;
+  score = 0;
+
+  switchScreen(screenQuiz);
+  loadQuestion();
 }
 
 function loadQuestion() {
@@ -90,8 +96,8 @@ function loadQuestion() {
   const currentQ = selectedQuestions[currentQuestionIndex];
 
   questionCounter.textContent = `Pregunta ${currentQuestionIndex + 1} / ${selectedQuestions.length}`;
-  scoreCounter.innerHTML = `⭐ Puntos: ${score}`;
-  progressBar.style.width = `${((currentQuestionIndex) / selectedQuestions.length) * 100}%`;
+  scoreCounter.innerHTML = `💵 Botín: ${score}`;
+  progressBar.style.width = `${(currentQuestionIndex / selectedQuestions.length) * 100}%`;
 
   questionText.textContent = `${currentQuestionIndex + 1}. ${currentQ.question}`;
   
@@ -113,7 +119,6 @@ function loadQuestion() {
 
 function selectOption(index) {
   if (isAnswered) return;
-
   selectedOptionIndex = index;
   const buttons = optionsContainer.querySelectorAll('.option-btn');
 
@@ -163,7 +168,7 @@ function checkAnswer() {
 
   if (selectedOptionIndex === currentQ.correct) {
     score++;
-    scoreCounter.innerHTML = `⭐ Puntos: ${score}`;
+    scoreCounter.innerHTML = `💵 Botín: ${score}`;
   }
 
   btnAction.textContent = currentQuestionIndex === selectedQuestions.length - 1 ? 'Ver Resultados' : 'Siguiente Pregunta';
@@ -188,23 +193,23 @@ function showResults() {
 
   const percentage = (score / selectedQuestions.length) * 100;
   if (percentage === 100) {
-    resultMessage.textContent = '¡Impresionante! ¡Eres un auténtico Hokage de Konoha!';
+    resultMessage.textContent = '¡Golpe Maestro! ¡Eres el rey o la reina de Vice City!';
   } else if (percentage >= 70) {
-    resultMessage.textContent = '¡Excelente nivel! Has alcanzado el rango de Jōnin.';
+    resultMessage.textContent = '¡Gran trabajo! Conoces Leonida como la palma de tu mano.';
   } else if (percentage >= 50) {
-    resultMessage.textContent = '¡Buen esfuerzo! Has superado el examen Chūnin.';
+    resultMessage.textContent = '¡Nada mal! Has sobrevivido al caos de las calles.';
   } else {
-    resultMessage.textContent = 'Aún te queda entrenamiento en la Academia Ninja.';
+    resultMessage.textContent = 'Te han atrapado a la primera. ¡Vuelve a intentarlo!';
   }
 
   playerNameInput.value = '';
   btnSaveScore.disabled = false;
-  btnSaveScore.textContent = 'Guardar Registro';
+  btnSaveScore.textContent = 'Guardar Botín';
 }
 
 function saveScore() {
-  const name = playerNameInput.value.trim() || 'Shinobi Anónimo';
-  const ranking = JSON.parse(localStorage.getItem('naruto_quiz_ranking')) || [];
+  const name = playerNameInput.value.trim() || 'Criminal Anónimo';
+  const ranking = JSON.parse(localStorage.getItem('gta6_quiz_ranking')) || [];
 
   const newEntry = {
     name: name,
@@ -216,7 +221,7 @@ function saveScore() {
 
   ranking.push(newEntry);
   ranking.sort((a, b) => b.score - a.score);
-  localStorage.setItem('naruto_quiz_ranking', JSON.stringify(ranking.slice(0, 10)));
+  localStorage.setItem('gta6_quiz_ranking', JSON.stringify(ranking.slice(0, 10)));
 
   btnSaveScore.disabled = true;
   btnSaveScore.textContent = '¡Guardado!';
@@ -224,10 +229,10 @@ function saveScore() {
 }
 
 function renderRanking() {
-  const ranking = JSON.parse(localStorage.getItem('naruto_quiz_ranking')) || [];
+  const ranking = JSON.parse(localStorage.getItem('gta6_quiz_ranking')) || [];
 
   if (ranking.length === 0) {
-    rankingContainer.innerHTML = '<p class="empty-ranking">Aún no hay puntuaciones registradas. ¡Sé el primero en jugar!</p>';
+    rankingContainer.innerHTML = '<p class="empty-ranking">Aún no hay puntuaciones registradas. ¡Sé el primero en dar el golpe!</p>';
     return;
   }
 
@@ -236,9 +241,9 @@ function renderRanking() {
       <thead>
         <tr>
           <th>#</th>
-          <th>Nombre Ninja</th>
-          <th>Prueba</th>
-          <th>Puntos</th>
+          <th>Alias</th>
+          <th>Categoría</th>
+          <th>Botín</th>
           <th>Fecha</th>
         </tr>
       </thead>
@@ -275,7 +280,8 @@ function switchScreen(screenToActive) {
 }
 
 function escapeHtml(text) {
-  const div.textContent = text;
+  const div = document.createElement('div');
+  div.textContent = text;
   return div.innerHTML;
 }
 

@@ -1,0 +1,366 @@
+{
+  "title": "Mapa de Leonida y Vice City",
+  "description": "Distritos, pantanos de Grassrivers, cayos, condados y fauna salvaje.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Cuál es la zona pantanosa de Leonida inspirada en los Everglades de Florida?",
+      "options": [
+        "Grassrivers",
+        "Mount Chiliad",
+        "Blaine County",
+        "Bayou Nwa"
+      ],
+      "correct": 0,
+      "hint": "Su nombre combina 'hierba' y 'ríos'."
+    },
+    {
+      "id": 2,
+      "question": "¿Qué medio de transporte acuático vemos surcando los pantanos llenos de flamencos y caimanes en el tráiler?",
+      "options": [
+        "Un submarino nuclear",
+        "Un hidrodeslizador (Airboat)",
+        "Un portaaviones",
+        "Una góndola"
+      ],
+      "correct": 1,
+      "hint": "Una embarcación plana impulsada por una hélice gigante trasera."
+    },
+    {
+      "id": 3,
+      "question": "¿Qué archipiélago de islas conectado por largos puentes sobre el mar aparece en Leonida (inspirado en los Cayos de Florida)?",
+      "options": [
+        "Leonida Keys",
+        "Vice Islands",
+        "Cayo Perico",
+        "Guarma"
+      ],
+      "correct": 0,
+      "hint": "Lleva el nombre del estado seguido de 'Keys'."
+    },
+    {
+      "id": 4,
+      "question": "¿Qué importante puerto comercial de contenedores y cruceros aparece en Vice City?",
+      "options": [
+        "Port Gellhorn / Viceport",
+        "Port Tudor",
+        "Elysian Island",
+        "Docks of Los Santos"
+      ],
+      "correct": 0,
+      "hint": "Una zona industrial portuaria muy extensa."
+    },
+    {
+      "id": 5,
+      "question": "¿Qué distrito de Vice City está inspirado en la Pequeña Habana (Little Havana) y comunidades latinas?",
+      "options": [
+        "Little Haiti / Little Havana",
+        "Chinatown",
+        "Vinewood",
+        "Grove Street"
+      ],
+      "correct": 0,
+      "hint": "Con gran presencia cultural cubana y haitiana."
+    },
+    {
+      "id": 6,
+      "question": "¿Qué famoso club nocturno de Vice City del juego de 2002 tiene sucesores modernos en GTA VI?",
+      "options": [
+        "Malibu Club / Jack of Hearts",
+        "Bahama Mamas",
+        "Maisonette 9",
+        "The Diamond"
+      ],
+      "correct": 0,
+      "hint": "Locales llenos de luces de neón, bailarines y lluvia de billetes."
+    },
+    {
+      "id": 7,
+      "question": "¿Qué condado aparece escrito en los coches de policía locales en el primer tráiler de GTA VI?",
+      "options": [
+        "Vice-Dale County",
+        "Blaine County",
+        "Los Santos County",
+        "Bohan County"
+      ],
+      "correct": 0,
+      "hint": "Parodia del condado real de Miami-Dade."
+    },
+    {
+      "id": 8,
+      "question": "¿Qué otro condado rural aparece en las patrullas policiales en zonas más pantanosas/interiores?",
+      "options": [
+        "Kelly County",
+        "Liberty County",
+        "New Austin",
+        "Lemoyne"
+      ],
+      "correct": 0,
+      "hint": "Nombre femenino seguido de 'County'."
+    },
+    {
+      "id": 9,
+      "question": "¿Qué gigantesca cadena de puentes sobre el océano conecta las islas del sur del mapa?",
+      "options": [
+        "Inspirada en la Overseas Highway (Seven Mile Bridge)",
+        "Brooklyn Bridge",
+        "Gant Bridge",
+        "Callahan Bridge"
+      ],
+      "correct": 0,
+      "hint": "Una carretera espectacular rodeada de agua turquesa a ambos lados."
+    },
+    {
+      "id": 10,
+      "question": "¿Qué animales marinos se ven nadando junto a los barcos y playas en los avances de GTA VI?",
+      "options": [
+        "Delfines, tiburones y rayas",
+        "Pingüinos emperador",
+        "Ballenas azules en la arena",
+        "Osos polares"
+      ],
+      "correct": 0,
+      "hint": "Fauna marina típica del Caribe y el Atlántico sur."
+    },
+    {
+      "id": 11,
+      "question": "¿Qué aves rosadas salen volando en bandada cuando pasa un hidrodeslizador por los pantanos?",
+      "options": [
+        "Flamencos",
+        "Avestruces",
+        "Buitres",
+        "Tucanes"
+      ],
+      "correct": 0,
+      "hint": "El ave emblemática de Miami y Florida."
+    },
+    {
+      "id": 12,
+      "question": "¿Qué famoso cartel luminoso de una tienda de empeños aparece en el tráiler?",
+      "options": [
+        "Waning Crescent Pawn & Gun",
+        "Los Santos Customs",
+        "Ammu-Nation",
+        "Cluckin' Bell"
+      ],
+      "correct": 0,
+      "hint": "Una tienda donde empeñar joyas y comprar armas."
+    },
+    {
+      "id": 13,
+      "question": "¿Qué estación de radio ficticia aparece anunciada en una avioneta sobrevolando la playa?",
+      "options": [
+        "Nine1Nine Vice City",
+        "Radio Los Santos",
+        "V-Rock",
+        "Flash FM"
+      ],
+      "correct": 0,
+      "hint": "El mensaje dice 'Why SixtyNine when you can Nine1Nine'."
+    },
+    {
+      "id": 14,
+      "question": "¿Qué famoso hotel real de Miami Beach sirve de inspiración directa para el edificio 'Ocean View' de Vice City?",
+      "options": [
+        "The Carlyle / Colony Hotel en Ocean Drive",
+        "Bellagio",
+        "Plaza Hotel",
+        "Burj Al Arab"
+      ],
+      "correct": 0,
+      "hint": "Edificio Art Déco con letrero vertical luminoso."
+    },
+    {
+      "id": 15,
+      "question": "¿Cómo es el tamaño del mapa de GTA VI en comparación con GTA V?",
+      "options": [
+        "Es mucho más pequeño",
+        "Es significativamente más grande, denso y con más interiores explorables",
+        "Es exactamente el mismo mapa reciclado",
+        "Solo tiene una calle"
+      ],
+      "correct": 1,
+      "hint": "Rockstar lo diseñó como el mundo abierto más grande e inmersivo de su historia."
+    },
+    {
+      "id": 16,
+      "question": "¿Qué zona de Leonida se caracteriza por carreras ilegales en el barro y camionetas 4x4 elevadas?",
+      "options": [
+        "Los alrededores pantanosos y rurales del interior de Leonida",
+        "El centro financiero",
+        "El aeropuerto internacional",
+        "La isla prisión"
+      ],
+      "correct": 0,
+      "hint": "Donde opera el Thrillbilly Mud Club."
+    },
+    {
+      "id": 17,
+      "question": "¿Qué tipo de embarcaciones de lujo se ven navegando frente al skyline de Vice City?",
+      "options": [
+        "Megayates, lanchas rápidas y motos de agua",
+        "Galeones piratas",
+        "Rompehielos árticos",
+        "Balsas de troncos"
+      ],
+      "correct": 0,
+      "hint": "Reflejan la ostentación y riqueza de la costa."
+    },
+    {
+      "id": 18,
+      "question": "¿Qué autopista elevada con múltiples carriles y tráfico denso se muestra en una toma aérea del tráiler?",
+      "options": [
+        "La autopista interestatal de Vice City (I-95 / Dolphin Expressway parodia)",
+        "Route 66",
+        "Autopista del Norte",
+        "Carretera de Vinewood"
+      ],
+      "correct": 0,
+      "hint": "Conecta la costa con el centro urbano y las afueras."
+    },
+    {
+      "id": 19,
+      "question": "¿Qué ciudad ficticia adicional dentro de Leonida (inspirada en Tampa/Fort Myers) aparece mencionada en señales y filtraciones?",
+      "options": [
+        "Port Gellhorn",
+        "San Fierro",
+        "Alderney City",
+        "Carcer City"
+      ],
+      "correct": 0,
+      "hint": "Una ciudad costera al oeste de Vice City."
+    },
+    {
+      "id": 20,
+      "question": "¿Qué lago gigante en el centro del estado (inspirado en el lago Okeechobee) forma parte de la geografía de Leonida?",
+      "options": [
+        "Lake Leonida",
+        "Alamo Sea",
+        "Mirror Park",
+        "Flat Iron Lake"
+      ],
+      "correct": 0,
+      "hint": "Lleva el nombre del propio estado."
+    },
+    {
+      "id": 21,
+      "question": "¿Qué tienda clásica de armas de toda la saga GTA sigue presente en el universo de GTA VI?",
+      "options": [
+        "Ammu-Nation",
+        "Weapon World",
+        "Gun Runner",
+        "Tactical Ops"
+      ],
+      "correct": 0,
+      "hint": "Su lema histórico es 'Protegiendo tus derechos'."
+    },
+    {
+      "id": 22,
+      "question": "¿Qué nivel de detalle tienen las playas de Vice City en los avances?",
+      "options": [
+        "Están completamente vacías",
+        "Tienen cientos de NPCs tomando el sol, echándose crema, haciendo ejercicio y paseando perros",
+        "Solo hay policías",
+        "Están cubiertas de hielo"
+      ],
+      "correct": 1,
+      "hint": "Destaca la enorme densidad y variedad de comportamientos de los peatones."
+    },
+    {
+      "id": 23,
+      "question": "¿Qué transporte aéreo comercial se ve despegando cerca de la playa en el tráiler?",
+      "options": [
+        "Aviones de pasajeros de gran tamaño",
+        "Zepelines de la Primera Guerra Mundial",
+        "Cohetes espaciales",
+        "Platillos volantes"
+      ],
+      "correct": 0,
+      "hint": "Indica la cercanía del Aeropuerto Internacional de Vice City."
+    },
+    {
+      "id": 24,
+      "question": "¿Qué deporte acuático o actividad playera se ve practicar a los NPCs en la orilla?",
+      "options": [
+        "Esquí acuático, motos de agua y tomar el sol",
+        "Esquí alpino",
+        "Hockey sobre hielo",
+        "Alpinismo"
+      ],
+      "correct": 0,
+      "hint": "Actividades típicas del verano eterno en Florida."
+    },
+    {
+      "id": 25,
+      "question": "¿Qué colores predominan en el logotipo oficial de Grand Theft Auto VI?",
+      "options": [
+        "Blanco y negro minimalista",
+        "Degradado pastel de rosa, naranja, morado y azul con palmeras",
+        "Verde militar",
+        "Rojo y amarillo"
+      ],
+      "correct": 1,
+      "hint": "Evoca el atardecer tropical y los neones de los años 80/modernos."
+    },
+    {
+      "id": 26,
+      "question": "¿Qué elemento natural aparece en la silueta detrás de las letras 'VI' en el logo oficial?",
+      "options": [
+        "Un rascacielos",
+        "Palmeras",
+        "Un coche de policía",
+        "Un avión"
+      ],
+      "correct": 1,
+      "hint": "El árbol más icónico de Vice City."
+    },
+    {
+      "id": 27,
+      "question": "¿En qué motor gráfico propietario de Rockstar está desarrollado GTA VI?",
+      "options": [
+        "Unreal Engine 5",
+        "RAGE (Rockstar Advanced Game Engine) en su versión más avanzada",
+        "Unity",
+        "Frostbite"
+      ],
+      "correct": 1,
+      "hint": "El mismo motor que impulsó Red Dead Redemption 2, pero evolucionado."
+    },
+    {
+      "id": 28,
+      "question": "¿Qué mejora visual destaca especialmente en los reflejos de los coches, escaparates y el agua en GTA VI?",
+      "options": [
+        "Gráficos 8-bit",
+        "Iluminación global y reflejos con Ray Tracing avanzado",
+        "Cel-shading tipo cómic",
+        "Blanco y negro"
+      ],
+      "correct": 1,
+      "hint": "Permite ver reflejos realistas en retrovisores y charcos."
+    },
+    {
+      "id": 29,
+      "question": "¿Qué tipo de fauna urbana y salvaje habita el mundo de Leonida?",
+      "options": [
+        "Caimanes, flamencos, perros chihuahua, gaviotas, mapaches y ciervos",
+        "Solo perros",
+        "Dragones y grifos",
+        "Dinosaurios"
+      ],
+      "correct": 0,
+      "hint": "Incluye mascotas en brazos de turistas y depredadores en los pantanos."
+    },
+    {
+      "id": 30,
+      "question": "¿Qué famoso lema o eslogan acompaña la campaña de GTA VI?",
+      "options": [
+        "Welcome to Leonida",
+        "Why did I move here? I guess it was the weather",
+        "Ah shit, here we go again",
+        "War never changes"
+      ],
+      "correct": 0,
+      "hint": "Da la bienvenida al nuevo estado de la franquicia."
+    }
+  ]
+}

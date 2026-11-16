@@ -1,366 +1,366 @@
 {
-  "title": "Historia y Arcos Principales de Naruto",
-  "description": "Demuestra tus conocimientos sobre la trama desde el inicio hasta la Gran Guerra Ninja.",
+  "title": "Lucia, Jason y la Trama",
+  "description": "Todo sobre los protagonistas, el primer tráiler, la prisión de Leonida y la historia.",
   "questions": [
     {
       "id": 1,
-      "question": "¿Quién fue el maestro principal del Equipo 7 compuesto por Naruto, Sasuke y Sakura?",
+      "question": "¿Quiénes son los dos protagonistas principales de Grand Theft Auto VI?",
       "options": [
-        "Iruka Umino",
-        "Kakashi Hatake",
-        "Jiraiya",
-        "Yamato"
+        "Lucia y Jason",
+        "Trevor y Michael",
+        "Niko y Roman",
+        "Tommy y Lance"
       ],
-      "correct": 1,
-      "hint": "Es conocido como el Ninja Copia y posee un Sharingan."
+      "correct": 0,
+      "hint": "Es la primera pareja protagonista jugable de la saga, inspirada en Bonnie y Clyde."
     },
     {
       "id": 2,
-      "question": "¿Qué bestia con cola (Bijuu) fue sellada dentro de Naruto Uzumaki cuando era un bebé?",
+      "question": "¿En qué estado ficticio de Estados Unidos se desarrolla principalmente GTA VI?",
       "options": [
-        "Shukaku (1 Cola)",
-        "Isobu (3 Colas)",
-        "Kurama (9 Colas)",
-        "Gyuki (8 Colas)"
+        "San Andreas",
+        "Leonida",
+        "Liberty",
+        "North Yankton"
       ],
-      "correct": 2,
-      "hint": "Es un zorro gigante de fuego con nueve colas."
+      "correct": 1,
+      "hint": "Es la versión ficticia de Florida en el universo HD de Rockstar."
     },
     {
       "id": 3,
-      "question": "¿Cuál es el sueño principal de Naruto Uzumaki desde el inicio de la serie?",
+      "question": "¿Cuál es la ciudad principal inspirada en Miami que regresa en GTA VI?",
       "options": [
-        "Vengar a su clan",
-        "Convertirse en Hokage",
-        "Aprender todos los jutsus del mundo",
-        "Derrotar a Akatsuki"
+        "Los Santos",
+        "Liberty City",
+        "Vice City",
+        "Las Venturas"
       ],
-      "correct": 1,
-      "hint": "Desea ser el líder de la Aldea Oculta de la Hoja para ser reconocido por todos."
+      "correct": 2,
+      "hint": "Famosa por sus playas de neón y ambientación tropical."
     },
     {
       "id": 4,
-      "question": "¿Quién fue el Cuarto Hokage de Konoha y cuál era su relación con Naruto?",
+      "question": "¿En qué situación vemos a Lucia al comienzo del primer tráiler oficial de GTA VI?",
       "options": [
-        "Sarutobi (Abuelo)",
-        "Minato Namikaze (Padre)",
-        "Tobirama Senju (Tío)",
-        "Tsunade (Madre)"
+        "Robando un banco",
+        "En una prisión estatal conversando con una consejera",
+        "Conduciendo en la playa",
+        "En un club nocturno"
       ],
       "correct": 1,
-      "hint": "Era conocido como el Rayo Amarillo de Konoha."
+      "hint": "Viste un uniforme naranja de reclusa."
     },
     {
       "id": 5,
-      "question": "¿Cuál fue el primer jutsu prohibido que aprendió Naruto tras robar el pergamino sagrado?",
+      "question": "¿Qué palabra dice Lucia cuando la consejera de la prisión le pregunta por qué está ahí?",
       "options": [
-        "Rasengan",
-        "Kage Bunshin no Jutsu (Clones de Sombra)",
-        "Chidori",
-        "Kuchiyose no Jutsu"
+        "Mala suerte (Bad luck, I guess)",
+        "Necesitaba dinero",
+        "Fue culpa de Jason",
+        "No me arrepiento"
       ],
-      "correct": 1,
-      "hint": "Le permite crear cientos de copias físicas de sí mismo."
+      "correct": 0,
+      "hint": "Una respuesta corta y resignada sobre su destino."
     },
     {
       "id": 6,
-      "question": "¿Qué villano interrumpió los Exámenes Chūnin y asesinó al Tercer Hokage (Hiruzen Sarutobi)?",
+      "question": "¿Qué palabra clave se repiten mutuamente Lucia y Jason en la escena final del primer tráiler antes de entrar a atracar una tienda?",
       "options": [
-        "Itachi Uchiha",
-        "Orochimaru",
-        "Pain",
-        "Madara Uchiha"
+        "Dinero (Money)",
+        "Confianza (Trust)",
+        "Familia (Family)",
+        "Libertad (Freedom)"
       ],
       "correct": 1,
-      "hint": "Uno de los legendarios Sannin, obsesionado con la inmortalidad y las serpientes."
+      "hint": "Es el pilar de su relación criminal."
     },
     {
       "id": 7,
-      "question": "¿Quién le enseñó a Naruto la técnica del Rasengan?",
+      "question": "¿Qué dispositivo lleva Lucia en su tobillo en el arte promocional oficial junto a Jason?",
       "options": [
-        "Kakashi Hatake",
-        "Jiraiya",
-        "Tsunade",
-        "Ebisu"
+        "Una funda de cuchillo",
+        "Una tobillera electrónica de seguimiento policial",
+        "Una cadena de oro",
+        "Un tatuaje de serpiente"
       ],
       "correct": 1,
-      "hint": "Uno de los tres Sannin, apodado el 'Sabio Sapo' (Ero-sennin)."
+      "hint": "Indica que está en libertad condicional o bajo arresto domiciliario."
     },
     {
       "id": 8,
-      "question": "¿Qué miembro del clan Uchiha exterminó a casi todo su clan en una sola noche?",
+      "question": "¿Cuál fue la canción que sonó en el primer tráiler oficial de GTA VI?",
       "options": [
-        "Sasuke Uchiha",
-        "Madara Uchiha",
-        "Itachi Uchiha",
-        "Obito Uchiha"
+        "Blinding Lights - The Weeknd",
+        "Love Is A Long Road - Tom Petty",
+        "In The Air Tonight - Phil Collins",
+        "Self Control - Laura Branigan"
       ],
-      "correct": 2,
-      "hint": "Era el hermano mayor de Sasuke."
+      "correct": 1,
+      "hint": "Un clásico del rock de 1989 cuyo artista falleció en 2017."
     },
     {
       "id": 9,
-      "question": "¿Cómo se llama la organización de ninjas renegados que buscaba capturar a todos los Jinchūriki?",
+      "question": "¿En qué fecha se publicó oficialmente el primer tráiler de GTA VI (adelantado unas horas por una filtración)?",
       "options": [
-        "ANBU",
-        "Akatsuki",
-        "Taka",
-        "Root (Raíz)"
+        "4 de diciembre de 2023",
+        "17 de septiembre de 2023",
+        "25 de diciembre de 2024",
+        "1 de enero de 2025"
       ],
-      "correct": 1,
-      "hint": "Sus miembros vestían capas negras con nubes rojas."
+      "correct": 0,
+      "hint": "Ocurrió a principios de diciembre de 2023."
     },
     {
       "id": 10,
-      "question": "¿Cuál es el nombre del líder manifiesto de Akatsuki que atacó y destruyó Konoha con el Shinra Tensei?",
+      "question": "¿Qué estudio es el desarrollador principal de Grand Theft Auto VI?",
       "options": [
-        "Sasori",
-        "Deidara",
-        "Pain / Nagato",
-        "Kakuzu"
+        "Ubisoft",
+        "Rockstar Games",
+        "Naughty Dog",
+        "CD Projekt Red"
       ],
-      "correct": 2,
-      "hint": "Poseía el Rinnegan y controlaba los Seis Caminos del Dolor."
+      "correct": 1,
+      "hint": "Los creadores de Red Dead Redemption y toda la saga GTA."
     },
     {
       "id": 11,
-      "question": "¿Qué técnica médica legendaria utiliza Tsunade Senju para regenerar sus heridas al instante?",
+      "question": "¿Qué hito histórico marca Lucia dentro de los juegos de la era HD de Grand Theft Auto?",
       "options": [
-        "Byakugou no Jutsu (Sello Fuerza de Cien)",
-        "Rasengan",
-        "Shiyō Senjutsu",
-        "Kage Bunshin"
+        "Es la primera mujer protagonista principal en la era 3D/HD",
+        "Es la primera policía jugable",
+        "Es la hermana de Tommy Vercetti",
+        "No sabe conducir"
       ],
       "correct": 0,
-      "hint": "Libera una enorme cantidad de chakra almacenado en el sello de su frente."
+      "hint": "Desde GTA 1 en 2D no había una protagonista femenina principal."
     },
     {
       "id": 12,
-      "question": "¿En qué modo entra Naruto tras entrenar en el Monte Myōboku con los sapos?",
+      "question": "¿Qué tipo de tienda atracan Lucia y Jason al final del primer tráiler?",
       "options": [
-        "Modo Chakra del Kyubi",
-        "Modo Sabio (Senjutsu)",
-        "Modo Barion",
-        "Modo Asura"
+        "Una joyería de lujo",
+        "Una tienda de conveniencia / licorería (Uncle Jack's Liquor)",
+        "Un concesionario de coches",
+        "El banco central"
       ],
       "correct": 1,
-      "hint": "Consiste en armonizar la energía natural con el propio chakra, cambiando sus ojos a forma de sapo."
+      "hint": "Un establecimiento de barrio donde entran con pañuelos cubriendo sus rostros."
     },
     {
       "id": 13,
-      "question": "¿Quién fue el verdadero cerebro detrás del plan del 'Ojo de la Luna' (Tsukuyomi Infinito) haciendo creer que era Madara?",
+      "question": "¿Qué animal salvaje entra en una tienda de conveniencia en una de las escenas virales del tráiler de GTA VI?",
       "options": [
-        "Kabuto Yakushi",
-        "Zetsu Negro / Kaguya Ōtsutsuki",
-        "Danō Shimura",
-        "Kisame Hoshigaki"
+        "Un oso pardo",
+        "Un caimán / cocodrilo",
+        "Un tiburón",
+        "Un puma"
       ],
       "correct": 1,
-      "hint": "Una entidad oscura creada a partir de la voluntad de la Madre del Chakra."
+      "hint": "El reptil más icónico de los pantanos de Florida."
     },
     {
       "id": 14,
-      "question": "¿Quién resucitó al ejército de ninjas legendarios durante la Cuarta Gran Guerra Ninja usando el Edo Tensei?",
+      "question": "¿Qué hace una mujer en el primer tráiler mientras va de pie sobre el techo de un coche en movimiento en la autopista?",
       "options": [
-        "Orochimaru",
-        "Kabuto Yakushi",
-        "Obito Uchiha",
-        "Zetsu Blanco"
+        "Dispara un lanzacohetes",
+        "Twerkea / baila mientras la graban",
+        "Toca la guitarra",
+        "Salta a otro camión"
       ],
       "correct": 1,
-      "hint": "El antiguo asistente y discípulo de Orochimaru que dominó la técnica del dragón blanco."
+      "hint": "Una escena inspirada en los famosos vídeos virales de 'Florida Man / Miami'."
     },
     {
       "id": 15,
-      "question": "¿En qué valle tuvo lugar la pelea final entre Naruto Uzumaki y Sasuke Uchiha?",
+      "question": "¿Qué arma sostiene una mujer en bata en mitad de la calle en uno de los clips de redes sociales del tráiler?",
       "options": [
-        "El Valle del Fin",
-        "El Valle de las Nubes",
-        "El Valle de los Muertos",
-        "El Bosque de la Muerte"
+        "Dos martillos",
+        "Dos katana",
+        "Una motosierra",
+        "Un bate de béisbol"
       ],
       "correct": 0,
-      "hint": "Donde se encuentran las gigantescas estatuas esculpidas de Hashirama Senju y Madara Uchiha."
+      "hint": "Una referencia directa a un famoso incidente viral real ocurrido en Los Ángeles/Florida."
     },
     {
       "id": 16,
-      "question": "¿Qué importante parte del cuerpo perdieron Naruto y Sasuke tras su enfrentamiento decisivo en Shippuden?",
+      "question": "¿Cómo se llama la cárcel donde aparece Lucia al principio del primer tráiler?",
       "options": [
-        "Una pierna",
-        "Su ojo izquierdo",
-        "Su brazo dominante / izquierdo-derecho",
-        "Su voz"
+        "Bolingbroke Penitentiary",
+        "Leonida Department of Corrections",
+        "Alderney State Correctional",
+        "Vice City County Jail"
       ],
-      "correct": 2,
-      "hint": "Naruto más tarde recibió una prótesis hecha con células de Hashirama."
+      "correct": 1,
+      "hint": "Lleva el nombre del estado donde transcurre el juego."
     },
     {
       "id": 17,
-      "question": "¿Quién se convirtió en el Sexto Hokage tras la Cuarta Gran Guerra Shinobi?",
+      "question": "¿Qué récord rompió el primer tráiler de GTA VI en YouTube en sus primeras 24 horas?",
       "options": [
-        "Naruto Uzumaki",
-        "Kakashi Hatake",
-        "Shikamaru Nara",
-        "Sakura Haruno"
+        "Más de 90 millones de reproducciones (récord para un vídeo no musical)",
+        "10 millones de reproducciones",
+        "500 millones de reproducciones",
+        "Fue borrado a la hora"
       ],
-      "correct": 1,
-      "hint": "El maestro del Equipo 7 que perdió el Sharingan durante la guerra."
+      "correct": 0,
+      "hint": "Superó el récord de MrBeast para vídeos no musicales en 24 horas."
     },
     {
       "id": 18,
-      "question": "¿Cuál era la verdadera identidad de Tobi dentro de Akatsuki?",
+      "question": "¿Cuál es el apellido de Jason según los detalles oficiales y filtraciones confirmadas del desarrollo?",
       "options": [
-        "Shisui Uchiha",
-        "Izuna Uchiha",
-        "Obito Uchiha",
-        "Fugaku Uchiha"
+        "Duval",
+        "Vercetti",
+        "Bellic",
+        "Marston"
       ],
-      "correct": 2,
-      "hint": "Antiguo compañero de equipo de Kakashi y Rin que se creía muerto tras una misión en el puente Kannabi."
+      "correct": 0,
+      "hint": "Empieza por D y tiene origen francés/sureño."
     },
     {
       "id": 19,
-      "question": "¿Qué objeto o accesorio le regaló Tsunade a Naruto tras ganar la apuesta sobre dominar el Rasengan?",
+      "question": "¿Qué relación sentimental tienen Jason y Lucia en la trama?",
       "options": [
-        "Una espada ninja",
-        "El collar del Primer Hokage",
-        "Un pergamino prohibido",
-        "Su banda de la aldea"
+        "Son hermanos",
+        "Son pareja sentimental y compañeros de atracos",
+        "Son enemigos mortales",
+        "Son agente del FIB e informante"
       ],
       "correct": 1,
-      "hint": "Un valioso amuleto verde cristalino que perteneció a Hashirama Senju."
+      "hint": "Aparecen abrazados en la cama y en el coche en los artes oficiales."
     },
     {
       "id": 20,
-      "question": "¿Qué equipo ninja estaba integrado por Shikamaru, Chōji e Ino?",
+      "question": "¿Qué coche clásico muscular conducen Jason y Lucia en el arte oficial y en el tráiler?",
       "options": [
-        "Equipo 7",
-        "Equipo 8",
-        "Equipo 10 (Ino-Shika-Chō)",
-        "Equipo Guy"
+        "Declasse Tulip",
+        "Bravado Banshee",
+        "Pegassi Infernus",
+        "Pfister Comet"
       ],
-      "correct": 2,
-      "hint": "Un trío legendario de clanes dirigidos originalmente por Asuma Sarutobi."
+      "correct": 0,
+      "hint": "Un sedán clásico americano de cuatro puertas de color blanco/crema."
     },
     {
       "id": 21,
-      "question": "¿Cómo se llamaba la espada demoníaca que portaba Kisame Hoshigaki?",
+      "question": "¿Qué papel juega la red social dentro del juego (similar a TikTok/Instagram) mostrada en el tráiler?",
       "options": [
-        "Kubikiribōchō",
-        "Samehada",
-        "Kiba",
-        "Hiramekarei"
+        "No existe internet en el juego",
+        "Muestra clips virales en vertical de los ciudadanos de Leonida",
+        "Solo sirve para comprar acciones",
+        "Es exclusiva del modo online"
       ],
       "correct": 1,
-      "hint": "Una espada con escamas que devora el chakra de sus oponentes."
+      "hint": "Aparecen comentarios en directo, corazones y nombres de usuario."
     },
     {
       "id": 22,
-      "question": "¿Qué maestro sacrificó su vida entrenando a Rock Lee y abriendo la Octava Puerta de la Muerte contra Madara Uchiha?",
+      "question": "¿Qué grupo de moteros y vehículos todoterreno aparece realizando acrobacias en el barro en el tráiler?",
       "options": [
-        "Kakashi Hatake",
-        "Might Guy",
-        "Asuma Sarutobi",
-        "Jiraiya"
+        "The Lost MC",
+        "Thrillbilly Mud Club",
+        "Vagos",
+        "Ballas"
       ],
       "correct": 1,
-      "hint": "La 'Bestia Verde de Konoha' y rival eterno de Kakashi."
+      "hint": "Su nombre hace referencia a los 'hillbillies' y el barro (mud)."
     },
     {
       "id": 23,
-      "question": "¿Cuál es el verdadero motivo por el cual Itachi Uchiha eliminó a su propio clan?",
+      "question": "¿Qué famosa frase describe el espíritu de Leonida en la web oficial de Rockstar?",
       "options": [
-        "Por deseo de poder personal",
-        "Para proteger a la aldea de un golpe de estado y salvar a Sasuke",
-        "Siguiendo órdenes de Akatsuki",
-        "Por estar bajo un genjutsu de Madara"
+        "La tierra de las oportunidades",
+        "Donde el sol nunca se pone",
+        "El hogar de los excesos, las redes sociales y el caos",
+        "La ciudad del pecado"
       ],
-      "correct": 1,
-      "hint": "Actuó en secreto bajo las órdenes de los altos mandos de Konoha para evitar una guerra civil."
+      "correct": 2,
+      "hint": "Refleja la sátira moderna de Florida."
     },
     {
       "id": 24,
-      "question": "¿Qué técnica suprema de espacio-tiempo usaba Minato Namikaze para teletransportarse a marcas de kunai especiales?",
+      "question": "¿En qué año se lanzó GTA V, el predecesor directo de GTA VI?",
       "options": [
-        "Hiraishin no Jutsu (Dios del Trueno Volador)",
-        "Shunshin no Jutsu",
-        "Kamui",
-        "Kawarimi no Jutsu"
+        "2011",
+        "2013",
+        "2015",
+        "2017"
       ],
-      "correct": 0,
-      "hint": "Le valió el apodo de Rayo Amarillo."
+      "correct": 1,
+      "hint": "Salió originalmente para PS3 y Xbox 360."
     },
     {
       "id": 25,
-      "question": "¿Cómo se llama el espíritu sellado en Gaara durante su infancia en la Aldea de la Arena?",
+      "question": "¿Cuántos años pasaron entre el lanzamiento de GTA V (2013) y el primer tráiler oficial de GTA VI (2023)?",
       "options": [
-        "Kokuō",
-        "Shukaku (Una Cola)",
-        "Saiken",
-        "Chōmei"
+        "5 años",
+        "8 años",
+        "10 años",
+        "12 años"
       ],
-      "correct": 1,
-      "hint": "Un mapache tanuki gigante de arena y chakra."
+      "correct": 2,
+      "hint": "Una década completa de espera."
     },
     {
       "id": 26,
-      "question": "¿Quién fue la primera persona en la historia en utilizar y transmitir el chakra, conocida como la Diosa Conejo?",
+      "question": "¿Qué famoso edificio histórico de Miami Beach aparece recreado con luces de neón en el tráiler?",
       "options": [
-        "Mito Uzumaki",
-        "Kaguya Ōtsutsuki",
-        "Kushina Uzumaki",
-        "Rin Nohara"
+        "El distrito Art Déco de Ocean Drive",
+        "La Torre Eiffel",
+        "El Empire State",
+        "El puente Golden Gate"
       ],
-      "correct": 1,
-      "hint": "Comió el fruto del Árbol del Chakra y es la madre del Sabio de los Seis Caminos."
+      "correct": 0,
+      "hint": "Famoso por sus hoteles pastel frente a la playa."
     },
     {
       "id": 27,
-      "question": "¿Qué ninja médico fue el maestro de Sakura Haruno en Shippuden?",
+      "question": "¿Qué bebida o marca ficticia clásica de GTA se ve anunciada en vallas y camisetas en GTA VI?",
       "options": [
-        "Shizune",
-        "Tsunade Senju",
-        "Kurenai Yūhi",
-        "Chiyo"
+        "Pißwasser y Patriot Beer",
+        "Nuka-Cola",
+        "Slurm",
+        "Duff Beer"
       ],
-      "correct": 1,
-      "hint": "La Quinta Hokage y nieta del Primer Hokage."
+      "correct": 0,
+      "hint": "La cerveza parodia más famosa del universo Rockstar."
     },
     {
       "id": 28,
-      "question": "¿Cómo se llama la técnica prohibida con la que el Tercer Hokage intentó sellar a Orochimaru?",
+      "question": "¿Qué fenómeno natural/climático tiene gran protagonismo en la ambientación costera de Leonida?",
       "options": [
-        "Shiki Fūjin (Sello Consumidor del Demonio de la Muerte)",
-        "Edo Tensei",
-        "Chibaku Tensei",
-        "Izanagi"
+        "Ventiscas de nieve",
+        "Tormentas tropicales, humedad y puestas de sol",
+        "Lluvia ácida",
+        "Terremotos constantes"
       ],
-      "correct": 0,
-      "hint": "Invoca a la Parca (Shinigami) a cambio del alma del usuario."
+      "correct": 1,
+      "hint": "Clima subtropical propio del sur de Estados Unidos."
     },
     {
       "id": 29,
-      "question": "¿Qué personaje era el mentor y líder del Equipo 8 (Hinata, Kiba y Shino)?",
+      "question": "¿Qué edición especial o versión de consola tuvo prioridad en el lanzamiento inicial de GTA VI?",
       "options": [
-        "Anko Mitarashi",
-        "Kurenai Yūhi",
-        "Shizune",
-        "Temari"
+        "PC únicamente",
+        "PlayStation 5 y Xbox Series X|S",
+        "Nintendo Switch",
+        "PS4 y Xbox One"
       ],
       "correct": 1,
-      "hint": "Una especialista en Genjutsu que más tarde tuvo un hijo con Asuma Sarutobi."
+      "hint": "Consolas de novena generación."
     },
     {
       "id": 30,
-      "question": "¿Quién se convierte finalmente en el Séptimo Hokage de Konoha?",
+      "question": "¿Cuál es la calificación por edades esperada/estándar de toda la saga Grand Theft Auto?",
       "options": [
-        "Sasuke Uchiha",
-        "Konohamaru Sarutobi",
-        "Naruto Uzumaki",
-        "Shikamaru Nara"
+        "PEGI 12 / E",
+        "PEGI 18 / M (Mature 17+)",
+        "PEGI 7",
+        "Para todos los públicos"
       ],
-      "correct": 2,
-      "hint": "Cumple su sueño de la infancia al final de la historia."
+      "correct": 1,
+      "hint": "Contenido adulto, violencia, lenguaje explícito y crimen."
     }
   ]
 }
